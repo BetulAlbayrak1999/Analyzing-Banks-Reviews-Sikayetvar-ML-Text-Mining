@@ -33,9 +33,12 @@ from datetime import date, datetime
 # =============================================================
 
 OPERATORS = {
-    "Kuveyt Türk": "kuveyt-turk",
+    #"Kuveyt Türk": "kuveyt-turk",
     #"Ziraat Bankası": "ziraat-bankasi",
     #"VakifBank":     "vakifbank",
+    #"Halkbank" : "halkbank", 1120
+    #"Yapı Kredi Bankası": "yapi-kredi-bankasi",1384
+    "İş Bank": "is-bankasi"
 }
 
 DATE_START = date(2025, 1, 1)
@@ -505,8 +508,8 @@ def save_to_csv(all_complaints):
     suffix = "_TEST" if TEST_MODE else ""
 
     # Birleşik dosya
-    path_all = os.path.join(OUTPUT_DIR, f"sikayetvar_all{suffix}.csv")
-    df_out.to_csv(path_all, index=False, encoding="utf-8-sig")
+    #path_all = os.path.join(OUTPUT_DIR, f"sikayetvar_all{suffix}.csv")
+    #df_out.to_csv(path_all, index=False, encoding="utf-8-sig")
 
     # Operatör bazlı
     for op in df_out["operator"].unique():
