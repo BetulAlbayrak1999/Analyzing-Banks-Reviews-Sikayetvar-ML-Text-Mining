@@ -5,12 +5,13 @@ ADIM 3: TURKCE METIN ON ISLEME (NLP Preprocessing)
 Bu script:
 1. Birlesmis veriyi yukler
 2. Turkce metinlere NLP on isleme uygular:
-   - Kucuk harfe cevir
-   - URL, mention, ozel karakter temizle
-   - Noktalama kaldir
-   - Sayi kaldir
-   - Turkce stop-word cikar
-   - Stemming (Snowball - Turkce)
+   - Kucuk harfe cevir("HESABIM" → "hesabım")
+   - URL, mention, ozel karakter temizle("https://t.co/abc" → "")
+   - Noktalama kaldir, Sayi kaldir("hesabım!" → "hesabım")
+   - Tokenize("hesabım bloke" → ["hesabım","bloke"])
+   - Kısa token filtresi2 karakter ve altı → kaldırıldı
+   - Turkce stop-word cikar ("ve", "için", "banka" → kaldırıldı)
+   - Stemming (Snowball - Turkce) ("hesaplarım" → "hesap")
 3. Temizlenmis metni kaydeder → data/processed/veri_temiz.csv
 4. On isleme oncesi/sonrasi ornekler gosterir
 5. Kelime bulutu gorseli uretir

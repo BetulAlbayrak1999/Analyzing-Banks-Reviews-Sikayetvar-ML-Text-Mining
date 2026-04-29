@@ -1,0 +1,308 @@
+{
+  "VakifBank": {
+    "optimal_k": 8,
+    "coherence_max": 0.4724,
+    "coherence_skorlar": {
+      "3": 0.366,
+      "4": 0.4681,
+      "5": 0.4461,
+      "6": 0.436,
+      "7": 0.4677,
+      "8": 0.4724,
+      "9": 0.4639,
+      "10": 0.4256
+    },
+    "konular": {
+      "Konu_1": [
+        "kart",
+        "sayılı",
+        "yıllık",
+        "kredi",
+        "kanun",
+        "tarafıma",
+        "üyelik",
+        "aidatı",
+        "haksız",
+        "tüketici"
+      ],
+      "Konu_2": [
+        "tarafıma",
+        "olarak",
+        "bilgim",
+        "şekilde",
+        "dışında",
+        "kredi",
+        "edilmesini",
+        "onayım",
+        "işlem",
+        "kartımdan"
+      ],
+      "Konu_3": [
+        "kart",
+        "kredi",
+        "kartı",
+        "iade",
+        "olarak",
+        "aidatı",
+        "yıllık",
+        "müşteri",
+        "tarafıma",
+        "iptal"
+      ],
+      "Konu_4": [
+        "kampanya",
+        "kredi",
+        "tarafıma",
+        "olarak",
+        "şekilde",
+        "geri",
+        "rağmen",
+        "herhangi",
+        "tarihinde",
+        "müşteri"
+      ],
+      "Konu_5": [
+        "icra",
+        "olarak",
+        "rağmen",
+        "maaş",
+        "şekilde",
+        "şubeye",
+        "tamamen",
+        "gerekli",
+        "kişisel",
+        "nedeniyle"
+      ],
+      "Konu_6": [
+        "iptal",
+        "tarafıma",
+        "kredi",
+        "edilmesini",
+        "üzerinden",
+        "sigortası",
+        "iade",
+        "sigorta",
+        "olarak",
+        "ferdi"
+      ],
+      "Konu_7": [
+        "kredi",
+        "rağmen",
+        "şekilde",
+        "olarak",
+        "üzerinden",
+        "yaklaşık",
+        "mobil",
+        "tarafıma",
+        "ancak",
+        "müşteri"
+      ],
+      "Konu_8": [
+        "hesabıma",
+        "atm",
+        "para",
+        "ancak",
+        "rağmen",
+        "müşteri",
+        "tarafıma",
+        "şekilde",
+        "hizmetleri",
+        "işlem"
+      ]
+    },
+    "sikayet_sayisi": 1688,
+    "sozluk_boyutu": 4961
+  },
+  "IsBankasi": {
+    "optimal_k": 5,
+    "coherence_max": 0.4942,
+    "coherence_skorlar": {
+      "3": 0.4717,
+      "4": 0.4513,
+      "5": 0.4942,
+      "6": 0.4853,
+      "7": 0.4687,
+      "8": 0.4899,
+      "9": 0.4703,
+      "10": 0.4723
+    },
+    "konular": {
+      "Konu_1": [
+        "kredi",
+        "rağmen",
+        "olarak",
+        "ancak",
+        "müşteri",
+        "ödeme",
+        "tarafıma",
+        "herhangi",
+        "üzerinden",
+        "şekilde"
+      ],
+      "Konu_2": [
+        "hesabıma",
+        "para",
+        "ancak",
+        "atm",
+        "müşteri",
+        "rağmen",
+        "herhangi",
+        "tarihinde",
+        "iade",
+        "olarak"
+      ],
+      "Konu_3": [
+        "kart",
+        "kredi",
+        "iade",
+        "olarak",
+        "müşteri",
+        "tarafıma",
+        "edilmesini",
+        "tarihinde",
+        "herhangi",
+        "yıllık"
+      ],
+      "Konu_4": [
+        "müşteri",
+        "ancak",
+        "mobil",
+        "şekilde",
+        "işlem",
+        "tekrar",
+        "sorun",
+        "rağmen",
+        "herhangi",
+        "şubeye"
+      ],
+      "Konu_5": [
+        "kart",
+        "sayılı",
+        "yıllık",
+        "kredi",
+        "ücreti",
+        "üyelik",
+        "kanun",
+        "tüketici",
+        "tarafıma",
+        "kartı"
+      ]
+    },
+    "sikayet_sayisi": 2583,
+    "sozluk_boyutu": 6514
+  },
+  "KuveytTurk": {
+    "optimal_k": 8,
+    "coherence_max": 0.4015,
+    "coherence_skorlar": {
+      "3": 0.3765,
+      "4": 0.3432,
+      "5": 0.3666,
+      "6": 0.3687,
+      "7": 0.3753,
+      "8": 0.4015,
+      "9": 0.4005,
+      "10": 0.3865
+    },
+    "konular": {
+      "Konu_1": [
+        "bir",
+        "müşteri",
+        "ediyorum",
+        "ancak",
+        "talep",
+        "herhangi",
+        "rağmen",
+        "üzerinden",
+        "şekilde",
+        "hizmetleri"
+      ],
+      "Konu_2": [
+        "bir",
+        "iade",
+        "talep",
+        "kredi",
+        "tarafıma",
+        "tarihinde",
+        "ediyorum",
+        "iptal",
+        "edilmesini",
+        "kart"
+      ],
+      "Konu_3": [
+        "kredi",
+        "kartı",
+        "bir",
+        "kart",
+        "limit",
+        "rağmen",
+        "kartımın",
+        "olarak",
+        "müşteri",
+        "diğer"
+      ],
+      "Konu_4": [
+        "kampanya",
+        "bir",
+        "hesabıma",
+        "rağmen",
+        "davet",
+        "müşteri",
+        "talep",
+        "ancak",
+        "üzerinden",
+        "kapsamında"
+      ],
+      "Konu_5": [
+        "bir",
+        "müşteri",
+        "dönüş",
+        "geri",
+        "sms",
+        "rağmen",
+        "hizmetleri",
+        "bankası",
+        "ödeme",
+        "hiçbir"
+      ],
+      "Konu_6": [
+        "müşteri",
+        "mobil",
+        "bir",
+        "giriş",
+        "hizmetleri",
+        "uygulama",
+        "yapamıyorum",
+        "şifre",
+        "kart",
+        "sorun"
+      ],
+      "Konu_7": [
+        "bir",
+        "para",
+        "müşteri",
+        "bana",
+        "olarak",
+        "ben",
+        "şubeye",
+        "sonra",
+        "bankası",
+        "işlem"
+      ],
+      "Konu_8": [
+        "bir",
+        "altın",
+        "olarak",
+        "fiziki",
+        "komisyon",
+        "kasa",
+        "talep",
+        "yüksek",
+        "gram",
+        "kesinti"
+      ]
+    },
+    "sikayet_sayisi": 2691,
+    "sozluk_boyutu": 6613
+  }
+}

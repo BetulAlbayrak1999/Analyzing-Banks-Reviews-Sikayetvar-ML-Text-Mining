@@ -1,0 +1,22 @@
+﻿Banka,Konu,Kelimeler,Optimal_k,Coherence
+VakifBank,Konu_1,"kart, sayılı, yıllık, kredi, kanun, tarafıma, üyelik, aidatı, haksız, tüketici",8,0.4724
+VakifBank,Konu_2,"tarafıma, olarak, bilgim, şekilde, dışında, kredi, edilmesini, onayım, işlem, kartımdan",8,0.4724
+VakifBank,Konu_3,"kart, kredi, kartı, iade, olarak, aidatı, yıllık, müşteri, tarafıma, iptal",8,0.4724
+VakifBank,Konu_4,"kampanya, kredi, tarafıma, olarak, şekilde, geri, rağmen, herhangi, tarihinde, müşteri",8,0.4724
+VakifBank,Konu_5,"icra, olarak, rağmen, maaş, şekilde, şubeye, tamamen, gerekli, kişisel, nedeniyle",8,0.4724
+VakifBank,Konu_6,"iptal, tarafıma, kredi, edilmesini, üzerinden, sigortası, iade, sigorta, olarak, ferdi",8,0.4724
+VakifBank,Konu_7,"kredi, rağmen, şekilde, olarak, üzerinden, yaklaşık, mobil, tarafıma, ancak, müşteri",8,0.4724
+VakifBank,Konu_8,"hesabıma, atm, para, ancak, rağmen, müşteri, tarafıma, şekilde, hizmetleri, işlem",8,0.4724
+IsBankasi,Konu_1,"kredi, rağmen, olarak, ancak, müşteri, ödeme, tarafıma, herhangi, üzerinden, şekilde",5,0.4942
+IsBankasi,Konu_2,"hesabıma, para, ancak, atm, müşteri, rağmen, herhangi, tarihinde, iade, olarak",5,0.4942
+IsBankasi,Konu_3,"kart, kredi, iade, olarak, müşteri, tarafıma, edilmesini, tarihinde, herhangi, yıllık",5,0.4942
+IsBankasi,Konu_4,"müşteri, ancak, mobil, şekilde, işlem, tekrar, sorun, rağmen, herhangi, şubeye",5,0.4942
+IsBankasi,Konu_5,"kart, sayılı, yıllık, kredi, ücreti, üyelik, kanun, tüketici, tarafıma, kartı",5,0.4942
+KuveytTurk,Konu_1,"bir, müşteri, ediyorum, ancak, talep, herhangi, rağmen, üzerinden, şekilde, hizmetleri",8,0.4015
+KuveytTurk,Konu_2,"bir, iade, talep, kredi, tarafıma, tarihinde, ediyorum, iptal, edilmesini, kart",8,0.4015
+KuveytTurk,Konu_3,"kredi, kartı, bir, kart, limit, rağmen, kartımın, olarak, müşteri, diğer",8,0.4015
+KuveytTurk,Konu_4,"kampanya, bir, hesabıma, rağmen, davet, müşteri, talep, ancak, üzerinden, kapsamında",8,0.4015
+KuveytTurk,Konu_5,"bir, müşteri, dönüş, geri, sms, rağmen, hizmetleri, bankası, ödeme, hiçbir",8,0.4015
+KuveytTurk,Konu_6,"müşteri, mobil, bir, giriş, hizmetleri, uygulama, yapamıyorum, şifre, kart, sorun",8,0.4015
+KuveytTurk,Konu_7,"bir, para, müşteri, bana, olarak, ben, şubeye, sonra, bankası, işlem",8,0.4015
+KuveytTurk,Konu_8,"bir, altın, olarak, fiziki, komisyon, kasa, talep, yüksek, gram, kesinti",8,0.4015
