@@ -1,0 +1,16 @@
+﻿Hipotez,Açıklama,Sonuç
+H1,Şikayet konuları bankalar arasında istatistiksel farklılık göstermektedir,LDA analizinde her banka için farklı konu kümeleri tespit edilmiştir. Bankalar arasında konu dağılımı anlamlı farklılıklar göstermektedir.
+H2,Belirli şikayet kategorileri çözülmeme olasılığını artırmaktadır,TF-IDF özellik önem analizine göre belirli kelimeler çözümsüz şikayetlerde daha yüksek ağırlık almaktadır.
+H3,ML modelleri %70+ doğrulukla çözüm tahmin edebilmektedir,"VakıfBank | Lojistik_Regresyon: 0.6213 → SAĞLANAMADI
+VakıfBank | Random_Forest: 0.6331 → SAĞLANAMADI
+VakıfBank | SVM_Dogrusal: 0.6302 → SAĞLANAMADI
+İşBankası | Lojistik_Regresyon: 0.7195 → SAĞLANDI
+İşBankası | Random_Forest: 0.7660 → SAĞLANDI
+İşBankası | SVM_Dogrusal: 0.7137 → SAĞLANDI
+Kuveyt Türk | Lojistik_Regresyon: 0.6512 → SAĞLANAMADI
+Kuveyt Türk | Random_Forest: 0.6475 → SAĞLANAMADI
+Kuveyt T"
+H4,Şikayet yoğunluğu belirli dönemlerde anlamlı artış göstermektedir,Zaman serisi analizi ve doğrusal trend grafikleri oluşturulmuştur. Belirli dönemlerde şikayet yoğunluğu artışı gözlemlenmektedir.
+H5,Çözüm süresi ve memnuniyet skoru arasında pozitif ilişki vardır,"VakıfBank: Çözüldü=3.18 | Bilinmiyor=1.13 | Fark=2.056 (pozitif)
+İşBankası: Çözüldü=2.89 | Bilinmiyor=1.08 | Fark=1.814 (pozitif)
+Kuveyt Türk: Çözüldü=2.88 | Bilinmiyor=1.11 | Fark=1.768 (pozitif)"
