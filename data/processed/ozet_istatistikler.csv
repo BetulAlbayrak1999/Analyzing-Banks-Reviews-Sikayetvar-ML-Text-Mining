@@ -1,4 +1,4 @@
-banka_key,sikayet_sayisi,cozulme_orani,ort_memnuniyet,ort_kelime_sayisi,ort_goruntulenme,toplam_goruntulenme
-IsBank,2678,26.21,1.59,114.52,329.23,881677
-KuveytTurk,3885,28.93,1.89,68.24,259.89,1009688
-VakifBank,1773,59.84,2.45,122.33,345.45,612474
+﻿banka_key,Sikayet_Sayisi,Cozulme_Orani_Pct,Sat_Medyan,Sat_Ceyrek25,Sat_Ceyrek75,Sat_Null_Pct,Ort_Kelime,Medyan_Goruntulenme
+IsBank,2678,26.21,1.0,1.0,1.0,8.1,114.52,308.5
+KuveytTurk,3885,28.93,1.0,1.0,2.0,34.2,68.24,0.0
+VakifBank,1773,59.84,1.0,1.0,5.0,7.2,122.33,328.0
