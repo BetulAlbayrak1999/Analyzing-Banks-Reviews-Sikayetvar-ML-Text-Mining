@@ -1,4 +1,4 @@
-﻿banka_key,Sikayet_Sayisi,Cozulme_Orani_Pct,Sat_Medyan,Sat_Ceyrek25,Sat_Ceyrek75,Sat_Null_Pct,Ort_Kelime,Medyan_Goruntulenme
-IsBank,2678,26.21,1.0,1.0,1.0,8.1,114.52,308.5
-KuveytTurk,3885,28.93,1.0,1.0,2.0,34.2,68.24,0.0
-VakifBank,1773,59.84,1.0,1.0,5.0,7.2,122.33,328.0
+﻿Banka,Şikayet Sayısı,Çözüldü (%),Çözülmedi (%),Satisfaction Medyan,Satisfaction Q1,Satisfaction Q3,Görüntülenme Medyan,Ort Kelime Sayısı
+VakıfBank,5025,36.58,63.42,1.0,1.0,5.0,988.0,52.3
+İşBankası,3293,43.12,56.88,1.0,1.0,1.0,520.0,68.0
+Kuveyt Türk,3979,34.46,65.54,1.0,1.0,2.0,775.0,38.4
