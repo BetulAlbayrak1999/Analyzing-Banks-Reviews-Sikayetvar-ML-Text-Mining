@@ -1,308 +1,491 @@
 {
   "VakifBank": {
-    "optimal_k": 8,
-    "coherence_max": 0.4724,
-    "coherence_skorlar": {
-      "3": 0.366,
-      "4": 0.4681,
-      "5": 0.4461,
-      "6": 0.436,
-      "7": 0.4677,
-      "8": 0.4724,
-      "9": 0.4639,
-      "10": 0.4256
+    "banka_tr": "VakıfBank",
+    "optimal_k": 9,
+    "coherence_max": 0.5898,
+    "perplexity": -6.7796,
+    "coherence_tum": {
+      "3": 0.4612,
+      "4": 0.5285,
+      "5": 0.4928,
+      "6": 0.5032,
+      "7": 0.4726,
+      "8": 0.4988,
+      "9": 0.5898
     },
     "konular": {
-      "Konu_1": [
-        "kart",
-        "sayılı",
-        "yıllık",
-        "kredi",
-        "kanun",
-        "tarafıma",
-        "üyelik",
-        "aidatı",
-        "haksız",
-        "tüketici"
-      ],
-      "Konu_2": [
-        "tarafıma",
-        "olarak",
-        "bilgim",
-        "şekilde",
-        "dışında",
-        "kredi",
-        "edilmesini",
-        "onayım",
-        "işlem",
-        "kartımdan"
-      ],
-      "Konu_3": [
-        "kart",
-        "kredi",
-        "kartı",
-        "iade",
-        "olarak",
-        "aidatı",
-        "yıllık",
-        "müşteri",
-        "tarafıma",
-        "iptal"
-      ],
-      "Konu_4": [
-        "kampanya",
-        "kredi",
-        "tarafıma",
-        "olarak",
-        "şekilde",
-        "geri",
-        "rağmen",
-        "herhangi",
-        "tarihinde",
-        "müşteri"
-      ],
-      "Konu_5": [
-        "icra",
-        "olarak",
-        "rağmen",
-        "maaş",
-        "şekilde",
-        "şubeye",
-        "tamamen",
-        "gerekli",
-        "kişisel",
-        "nedeniyle"
-      ],
-      "Konu_6": [
-        "iptal",
-        "tarafıma",
-        "kredi",
-        "edilmesini",
-        "üzerinden",
-        "sigortası",
-        "iade",
-        "sigorta",
-        "olarak",
-        "ferdi"
-      ],
-      "Konu_7": [
-        "kredi",
-        "rağmen",
-        "şekilde",
-        "olarak",
-        "üzerinden",
-        "yaklaşık",
-        "mobil",
-        "tarafıma",
-        "ancak",
-        "müşteri"
-      ],
-      "Konu_8": [
-        "hesabıma",
-        "atm",
-        "para",
-        "ancak",
-        "rağmen",
-        "müşteri",
-        "tarafıma",
-        "şekilde",
-        "hizmetleri",
-        "işlem"
-      ]
+      "Konu_1": {
+        "kelimeler": [
+          "kart_aidat",
+          "kredi",
+          "ücret",
+          "iade",
+          "kart",
+          "tutar",
+          "aidat",
+          "alına",
+          "tamam_iade",
+          "ekstre",
+          "kesile",
+          "yansıtıldık"
+        ],
+        "etiket": "ATM, Alışveriş ve Kampanya"
+      },
+      "Konu_2": {
+        "kelimeler": [
+          "kredi",
+          "tutar",
+          "sigorta",
+          "ihtiyaç_kredi",
+          "iade",
+          "ücret",
+          "hayat_sigorta",
+          "fer_kaz",
+          "uygulama",
+          "poliçe",
+          "kullan",
+          "bağlı"
+        ],
+        "etiket": "Kredi ve Borç Yönetimi"
+      },
+      "Konu_3": {
+        "kelimeler": [
+          "işlem",
+          "tutar",
+          "iade",
+          "mağduriyet",
+          "hesap",
+          "derhal",
+          "yapıldık",
+          "süre",
+          "güvenlik",
+          "lik",
+          "arayarak",
+          "izinsiz"
+        ],
+        "etiket": "Dijital Bankacılık ve Güvenlik"
+      },
+      "Konu_4": {
+        "kelimeler": [
+          "limit",
+          "sky_limit",
+          "kredi",
+          "uygulama",
+          "kullanamıyor",
+          "sorunsuz",
+          "hesap",
+          "deneme",
+          "kullanmak",
+          "işlem_gerçekleştiremiyor",
+          "alıyor",
+          "hgs"
+        ],
+        "etiket": "Kart Aidat ve Ücret Şikayetleri"
+      },
+      "Konu_5": {
+        "kelimeler": [
+          "para",
+          "atm",
+          "kayıt",
+          "şlem",
+          "tutar",
+          "nin",
+          "civar",
+          "hesap",
+          "atm_para",
+          "süre",
+          "işlem",
+          "aradı"
+        ],
+        "etiket": "Sigorta ve İhtiyaç Kredisi"
+      },
+      "Konu_6": {
+        "kelimeler": [
+          "maaş",
+          "bloke",
+          "hesap",
+          "icra",
+          "ödeme",
+          "personel",
+          "ara",
+          "işlem",
+          "gerekçe",
+          "şube",
+          "giriş",
+          "para"
+        ],
+        "etiket": "Konu 6"
+      },
+      "Konu_7": {
+        "kelimeler": [
+          "tutar",
+          "kesinti",
+          "tahsil_edile",
+          "ücret",
+          "iade",
+          "eksiksiz_iade",
+          "faiz",
+          "kabul_etmiyor",
+          "tahsilat",
+          "sigorta_poliçe",
+          "hesap",
+          "tahsil"
+        ],
+        "etiket": "Konu 7"
+      },
+      "Konu_8": {
+        "kelimeler": [
+          "borç",
+          "ödeme",
+          "hesap",
+          "kredi",
+          "maaş",
+          "faiz",
+          "yapılandırma",
+          "taksit",
+          "kart",
+          "gecikme",
+          "vade",
+          "tutar"
+        ],
+        "etiket": "Konu 8"
+      },
+      "Konu_9": {
+        "kelimeler": [
+          "kart",
+          "kredi",
+          "kampanya",
+          "puan",
+          "alışveriş",
+          "tutar",
+          "ekstre",
+          "harcama",
+          "yaptık",
+          "harca",
+          "özellik",
+          "ödeme"
+        ],
+        "etiket": "Konu 9"
+      }
     },
-    "sikayet_sayisi": 1688,
-    "sozluk_boyutu": 4961
+    "konu_dagilim": {
+      "2": 338,
+      "8": 559,
+      "5": 560,
+      "1": 1051,
+      "7": 962,
+      "4": 502,
+      "0": 303,
+      "3": 331,
+      "6": 126
+    },
+    "konu_cozum": {
+      "Sikayet_Sayisi": {
+        "0": 303,
+        "1": 1051,
+        "2": 338,
+        "3": 331,
+        "4": 502,
+        "5": 560,
+        "6": 126,
+        "7": 962,
+        "8": 559
+      },
+      "Cozulme_Orani": {
+        "0": 45.87,
+        "1": 41.96,
+        "2": 44.38,
+        "3": 32.33,
+        "4": 33.86,
+        "5": 38.39,
+        "6": 34.13,
+        "7": 31.7,
+        "8": 38.82
+      },
+      "Satisfaction_Med": {
+        "0": 1.0,
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "4": 1.0,
+        "5": 1.0,
+        "6": 1.0,
+        "7": 1.0,
+        "8": 1.0
+      }
+    },
+    "sikayet_sayisi": 4738,
+    "sozluk_boyutu": 2803,
+    "bigram_token": 11432
   },
-  "IsBankasi": {
-    "optimal_k": 5,
-    "coherence_max": 0.4942,
-    "coherence_skorlar": {
-      "3": 0.4717,
-      "4": 0.4513,
-      "5": 0.4942,
-      "6": 0.4853,
-      "7": 0.4687,
-      "8": 0.4899,
-      "9": 0.4703,
-      "10": 0.4723
+  "IsBank": {
+    "banka_tr": "İşBankası",
+    "optimal_k": 7,
+    "coherence_max": 0.4632,
+    "perplexity": -6.5918,
+    "coherence_tum": {
+      "3": 0.3246,
+      "4": 0.3463,
+      "5": 0.4022,
+      "6": 0.3806,
+      "7": 0.4632,
+      "8": 0.4578,
+      "9": 0.3918
     },
     "konular": {
-      "Konu_1": [
-        "kredi",
-        "rağmen",
-        "olarak",
-        "ancak",
-        "müşteri",
-        "ödeme",
-        "tarafıma",
-        "herhangi",
-        "üzerinden",
-        "şekilde"
-      ],
-      "Konu_2": [
-        "hesabıma",
-        "para",
-        "ancak",
-        "atm",
-        "müşteri",
-        "rağmen",
-        "herhangi",
-        "tarihinde",
-        "iade",
-        "olarak"
-      ],
-      "Konu_3": [
-        "kart",
-        "kredi",
-        "iade",
-        "olarak",
-        "müşteri",
-        "tarafıma",
-        "edilmesini",
-        "tarihinde",
-        "herhangi",
-        "yıllık"
-      ],
-      "Konu_4": [
-        "müşteri",
-        "ancak",
-        "mobil",
-        "şekilde",
-        "işlem",
-        "tekrar",
-        "sorun",
-        "rağmen",
-        "herhangi",
-        "şubeye"
-      ],
-      "Konu_5": [
-        "kart",
-        "sayılı",
-        "yıllık",
-        "kredi",
-        "ücreti",
-        "üyelik",
-        "kanun",
-        "tüketici",
-        "tarafıma",
-        "kartı"
-      ]
+      "Konu_1": {
+        "kelimeler": [
+          "tutar",
+          "maaş",
+          "numara",
+          "faiz",
+          "hesap",
+          "arama",
+          "ücret",
+          "karar",
+          "çek",
+          "ödeme",
+          "rahatsız",
+          "sigorta"
+        ],
+        "etiket": "Kredi Kartı Limiti ve Kampanya"
+      },
+      "Konu_2": {
+        "kelimeler": [
+          "kart",
+          "kredi",
+          "aidat",
+          "ücret",
+          "tutar",
+          "iade",
+          "borç",
+          "limit",
+          "ekstre",
+          "ödeme",
+          "kullanıyor",
+          "yıl"
+        ],
+        "etiket": "Mobil Uygulama ve İşlem Sorunları"
+      },
+      "Konu_3": {
+        "kelimeler": [
+          "maaş",
+          "hesap",
+          "borç",
+          "şube",
+          "ödeme",
+          "uygulama",
+          "işlem",
+          "icra",
+          "personel",
+          "nede",
+          "yaşıyor",
+          "sür"
+        ],
+        "etiket": "Aidat ve Yıllık Ücret İtirazı"
+      },
+      "Konu_4": {
+        "kelimeler": [
+          "para",
+          "hesap",
+          "tutar",
+          "ödeme",
+          "atm",
+          "işlem",
+          "kredi",
+          "iade",
+          "kart",
+          "şlem",
+          "borç",
+          "görünüyor"
+        ],
+        "etiket": "Maaş Promosyonu ve Kart Teslimatı"
+      },
+      "Konu_5": {
+        "kelimeler": [
+          "uygulama",
+          "giriş",
+          "bloke",
+          "işlem",
+          "hesap",
+          "şcep_uygulama",
+          "kredi",
+          "güvenlik",
+          "teknik",
+          "çek",
+          "şifre",
+          "kanal"
+        ],
+        "etiket": "Borç, Haciz ve Hesap Blokesi"
+      },
+      "Konu_6": {
+        "kelimeler": [
+          "kart",
+          "alışveriş",
+          "kampanya",
+          "puan",
+          "kredi",
+          "maxipuan",
+          "harcama",
+          "tutar",
+          "kampanya_koşul",
+          "lik",
+          "taksit",
+          "ödeme"
+        ],
+        "etiket": "Konu 6"
+      },
+      "Konu_7": {
+        "kelimeler": [
+          "kart",
+          "kredi",
+          "aidat",
+          "ücret",
+          "iade",
+          "tutar",
+          "üyelik_ücret",
+          "üyelik",
+          "iptal",
+          "hake_heyet",
+          "alına",
+          "işlem"
+        ],
+        "etiket": "Konu 7"
+      }
     },
-    "sikayet_sayisi": 2583,
-    "sozluk_boyutu": 6514
+    "konu_dagilim": {
+      "5": 215,
+      "3": 654,
+      "1": 796,
+      "6": 249,
+      "2": 578,
+      "4": 192,
+      "0": 151
+    },
+    "konu_cozum": {
+      "Sikayet_Sayisi": {
+        "0": 151,
+        "1": 796,
+        "2": 578,
+        "3": 654,
+        "4": 192,
+        "5": 215,
+        "6": 249
+      },
+      "Cozulme_Orani": {
+        "0": 36.42,
+        "1": 30.4,
+        "2": 25.26,
+        "3": 39.14,
+        "4": 45.31,
+        "5": 44.19,
+        "6": 34.54
+      },
+      "Satisfaction_Med": {
+        "0": 1.0,
+        "1": 1.0,
+        "2": 1.0,
+        "3": 1.0,
+        "4": 1.0,
+        "5": 1.0,
+        "6": 1.0
+      }
+    },
+    "sikayet_sayisi": 2835,
+    "sozluk_boyutu": 2187,
+    "bigram_token": 6534
   },
   "KuveytTurk": {
-    "optimal_k": 8,
-    "coherence_max": 0.4015,
-    "coherence_skorlar": {
-      "3": 0.3765,
-      "4": 0.3432,
-      "5": 0.3666,
-      "6": 0.3687,
-      "7": 0.3753,
-      "8": 0.4015,
-      "9": 0.4005,
-      "10": 0.3865
+    "banka_tr": "Kuveyt Türk",
+    "optimal_k": 3,
+    "coherence_max": 0.4141,
+    "perplexity": -6.7663,
+    "coherence_tum": {
+      "3": 0.4141,
+      "4": 0.4104,
+      "5": 0.3781,
+      "6": 0.3647,
+      "7": 0.3851,
+      "8": 0.3868,
+      "9": 0.3573
     },
     "konular": {
-      "Konu_1": [
-        "bir",
-        "müşteri",
-        "ediyorum",
-        "ancak",
-        "talep",
-        "herhangi",
-        "rağmen",
-        "üzerinden",
-        "şekilde",
-        "hizmetleri"
-      ],
-      "Konu_2": [
-        "bir",
-        "iade",
-        "talep",
-        "kredi",
-        "tarafıma",
-        "tarihinde",
-        "ediyorum",
-        "iptal",
-        "edilmesini",
-        "kart"
-      ],
-      "Konu_3": [
-        "kredi",
-        "kartı",
-        "bir",
-        "kart",
-        "limit",
-        "rağmen",
-        "kartımın",
-        "olarak",
-        "müşteri",
-        "diğer"
-      ],
-      "Konu_4": [
-        "kampanya",
-        "bir",
-        "hesabıma",
-        "rağmen",
-        "davet",
-        "müşteri",
-        "talep",
-        "ancak",
-        "üzerinden",
-        "kapsamında"
-      ],
-      "Konu_5": [
-        "bir",
-        "müşteri",
-        "dönüş",
-        "geri",
-        "sms",
-        "rağmen",
-        "hizmetleri",
-        "bankası",
-        "ödeme",
-        "hiçbir"
-      ],
-      "Konu_6": [
-        "müşteri",
-        "mobil",
-        "bir",
-        "giriş",
-        "hizmetleri",
-        "uygulama",
-        "yapamıyorum",
-        "şifre",
-        "kart",
-        "sorun"
-      ],
-      "Konu_7": [
-        "bir",
-        "para",
-        "müşteri",
-        "bana",
-        "olarak",
-        "ben",
-        "şubeye",
-        "sonra",
-        "bankası",
-        "işlem"
-      ],
-      "Konu_8": [
-        "bir",
-        "altın",
-        "olarak",
-        "fiziki",
-        "komisyon",
-        "kasa",
-        "talep",
-        "yüksek",
-        "gram",
-        "kesinti"
-      ]
+      "Konu_1": {
+        "kelimeler": [
+          "kampanya",
+          "kart",
+          "alışveriş",
+          "iade",
+          "tutar",
+          "kampanya_şart",
+          "davet",
+          "ödül",
+          "kampanya_kapsam",
+          "harcama",
+          "uygulama",
+          "harca"
+        ],
+        "etiket": "Kredi Kartı ve Kampanya Şikayetleri"
+      },
+      "Konu_2": {
+        "kelimeler": [
+          "kart",
+          "uygulama",
+          "hesap",
+          "numara",
+          "şube",
+          "atm",
+          "giriş",
+          "temsilci",
+          "işlem",
+          "para",
+          "telefon",
+          "aradı"
+        ],
+        "etiket": "Davet Kampanyası ve ATM/Ödül"
+      },
+      "Konu_3": {
+        "kelimeler": [
+          "para",
+          "hesap",
+          "tutar",
+          "ödeme",
+          "kredi_kart",
+          "kredi",
+          "kart",
+          "ücret",
+          "işlem",
+          "limit",
+          "şube",
+          "iade"
+        ],
+        "etiket": "Para Transferi ve Şube İşlemleri"
+      }
     },
-    "sikayet_sayisi": 2691,
-    "sozluk_boyutu": 6613
+    "konu_dagilim": {
+      "1": 1349,
+      "2": 1680,
+      "0": 675
+    },
+    "konu_cozum": {
+      "Sikayet_Sayisi": {
+        "0": 675,
+        "1": 1349,
+        "2": 1680
+      },
+      "Cozulme_Orani": {
+        "0": 33.33,
+        "1": 29.8,
+        "2": 28.69
+      },
+      "Satisfaction_Med": {
+        "0": 1.0,
+        "1": 1.0,
+        "2": 1.0
+      }
+    },
+    "sikayet_sayisi": 3705,
+    "sozluk_boyutu": 2192,
+    "bigram_token": 5625
   }
 }
