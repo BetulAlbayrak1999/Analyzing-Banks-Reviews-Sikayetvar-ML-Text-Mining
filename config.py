@@ -39,7 +39,7 @@ MERKEZI_EGILIM = "median"   # "mean" KULLANMA
 # ----------------------------------------------------------
 # LDA PARAMETRELERİ
 # ----------------------------------------------------------
-LDA_KONU_ARALIK  = (3, 8)   # k=3'ten k=7'a kadar aranır
+LDA_KONU_ARALIK  = (3, 11)   # k=3'ten k=10'a kadar aranır
 LDA_PASSES       = 20
 LDA_ITERATIONS   = 100
 LDA_ALPHA        = "auto"
