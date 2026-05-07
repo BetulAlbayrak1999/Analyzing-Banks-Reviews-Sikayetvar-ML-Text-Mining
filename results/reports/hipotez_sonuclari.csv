@@ -1,16 +1,6 @@
-﻿Hipotez,Açıklama,Sonuç
-H1,Şikayet konuları bankalar arasında istatistiksel farklılık göstermektedir,LDA analizinde her banka için farklı konu kümeleri tespit edilmiştir. Bankalar arasında konu dağılımı anlamlı farklılıklar göstermektedir.
-H2,Belirli şikayet kategorileri çözülmeme olasılığını artırmaktadır,TF-IDF özellik önem analizine göre belirli kelimeler çözümsüz şikayetlerde daha yüksek ağırlık almaktadır.
-H3,ML modelleri %70+ doğrulukla çözüm tahmin edebilmektedir,"VakıfBank | Lojistik_Regresyon: 0.6213 → SAĞLANAMADI
-VakıfBank | Random_Forest: 0.6331 → SAĞLANAMADI
-VakıfBank | SVM_Dogrusal: 0.6302 → SAĞLANAMADI
-İşBankası | Lojistik_Regresyon: 0.7195 → SAĞLANDI
-İşBankası | Random_Forest: 0.7660 → SAĞLANDI
-İşBankası | SVM_Dogrusal: 0.7137 → SAĞLANDI
-Kuveyt Türk | Lojistik_Regresyon: 0.6512 → SAĞLANAMADI
-Kuveyt Türk | Random_Forest: 0.6475 → SAĞLANAMADI
-Kuveyt T"
-H4,Şikayet yoğunluğu belirli dönemlerde anlamlı artış göstermektedir,Zaman serisi analizi ve doğrusal trend grafikleri oluşturulmuştur. Belirli dönemlerde şikayet yoğunluğu artışı gözlemlenmektedir.
-H5,Çözüm süresi ve memnuniyet skoru arasında pozitif ilişki vardır,"VakıfBank: Çözüldü=3.18 | Bilinmiyor=1.13 | Fark=2.056 (pozitif)
-İşBankası: Çözüldü=2.89 | Bilinmiyor=1.08 | Fark=1.814 (pozitif)
-Kuveyt Türk: Çözüldü=2.88 | Bilinmiyor=1.11 | Fark=1.768 (pozitif)"
+﻿Hipotez,Açıklama,Sonuç,Kanıt
+H1,Şikayet konuları bankalar arası anlamlı farklılık göstermektedir,DESTEKLENDI,"Her banka için farklı optimal konu sayısı: VakıfBank k=9, İşBankası k=7, Kuveyt Türk k=3"
+H2,Belirli şikayet kategorileri çözülmeme olasılığını artırmaktadır,DESTEKLENDI,"Mann-Whitney U testi: p<0.001 tüm bankalarda. Çözülen: medyan=4.0, Çözülmeyen: medyan=1.0. Kruskal-Wallis (3 banka): H=183.83, p=0.000000"
+H3,ML modelleri ≥%70 accuracy ile çözüm tahmini yapabilmektedir,KISMEN,"6/9 model H3 eşiğini aştı. En iyi: VakıfBank-SVM=0.761, İşBankası-SVM=0.739, KuveytTürk-RF=0.741"
+H4,Şikayet yoğunluğu belirli dönemlerde anlamlı artış göstermektedir,KISMEN,"Anlamlı trend (p<0.05): İşBankası, Kuveyt Türk. VakıfBank: p=0.135 (anlamsız), İşBankası: p=0.004, Kuveyt Türk: p=0.000"
+H5,Çözüm durumu ile memnuniyet skoru arasında pozitif ilişki vardır,DESTEKLENDI,VakıfBank: Spearman ρ=0.548 p<0.001 | İşBankası: Spearman ρ=0.613 p<0.001 | Kuveyt Türk: Spearman ρ=0.500 p<0.001

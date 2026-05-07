@@ -1,4 +1,4 @@
-﻿Banka,Toplam Sikayet,Cozulme Orani (%),Ort Satisfaction,Medyan Satisfaction,Ort Kelime Sayisi,Ort Goruntulenme
-VakıfBank,1688,62.86,2.453,1.0,128.5,352.2
-İşBankası,2583,27.1,1.594,1.0,118.7,332.9
-Kuveyt Türk,2691,41.62,1.888,1.0,98.5,266.2
+﻿Banka,Şikayet Sayısı,Çözüm Oranı (%),Sat. Med (Çözüldü),Sat. Med (Çöz.med),Görüntülenme Med,Yanıt Oranı (%)
+VakıfBank,4738,37.78,4.0,1.0,1037.0,67.0
+İşBankası,2835,34.11,4.0,1.0,552.0,13.7
+Kuveyt Türk,3705,29.93,4.0,1.0,819.0,57.2
