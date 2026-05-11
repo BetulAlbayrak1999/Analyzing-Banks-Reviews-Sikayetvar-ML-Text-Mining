@@ -603,7 +603,7 @@ if __name__ == "__main__":
     fig, axes = plt.subplots(1, 3, figsize=(20, 7))
     fig.patch.set_facecolor("#F8F9FA")
     fig.suptitle(
-        "Konu × Çözüm Ilişkisi Isı Haritası (H2 Hipotezi)\n"
+        "Konu × Çözüm Ilişkisi Isı Haritası\n"
         "Her konu için çözülme oranı (%): Koyu kırmızı = düşük çözüm, Koyu yeşil = yüksek çözüm",
         fontsize=13, fontweight="bold", y=1.01
     )
@@ -710,7 +710,7 @@ if __name__ == "__main__":
     fig, axes = plt.subplots(1, 3, figsize=(20, 6))
     fig.patch.set_facecolor("#F8F9FA")
     fig.suptitle(
-        "Şikayet Konularının Aylık Zaman Trendi (H4 Hipotezi)\n"
+        "Şikayet Konularının Aylık Zaman Trendi\n"
         "Her konu rengi bir şikayet kategorisini temsil eder",
         fontsize=13, fontweight="bold", y=1.01
     )
@@ -783,6 +783,7 @@ if __name__ == "__main__":
 
     # ─── FİGÜR 21: Konu Kelime Bubble Chart ──────────────────
     # Her konu için top-8 kelimeyi bubble boyutu = olasılık ağırlığı
+    """
     fig, axes = plt.subplots(1, 3, figsize=(22, 8))
     fig.patch.set_facecolor("#0D1117")
     fig.suptitle(
@@ -940,7 +941,7 @@ if __name__ == "__main__":
                 dpi=150, bbox_inches="tight")
     plt.close()
     print("  ✓ 22_bankalar_konu_kiyaslama.png")
-
+"""
     # ==========================================================
     # 5. ÖZET
     # ==========================================================

@@ -407,7 +407,7 @@ if __name__ == "__main__":
     fig = plt.figure(figsize=(22, 18))
     fig.patch.set_facecolor("#F0F4F8")
     fig.suptitle(
-        "Şekil 23 — ROC Eğrisi Analizi: Her Algoritma Ayrı\n"
+        "ROC Eğrisi Analizi: Her Algoritma Ayrı\n"
         "İlk 3 sütun: Her banka-algoritma çifti  |  Son sütun: 3 algoritmanın banka içi karşılaştırması\n"
         "AUC=1.0 mükemmel · AUC=0.5 rastgele tahmin · Optimal nokta: Youden J istatistiği",
         fontsize=13, fontweight="bold", y=1.01,
@@ -502,7 +502,7 @@ if __name__ == "__main__":
     fig, axes = plt.subplots(3, 3, figsize=(17, 16))
     fig.patch.set_facecolor("#F0F4F8")
     fig.suptitle(
-        "Şekil 24 — Karışıklık Matrisleri: Banka × Algoritma\n"
+        "Karışıklık Matrisleri: Banka × Algoritma\n"
         "Satır: Gerçek sınıf  |  Sütun: Tahmin edilen sınıf  |  "
         "Altın çerçeve: Doğru tahminler (köşegen)",
         fontsize=14, fontweight="bold", y=1.01,
@@ -558,7 +558,7 @@ if __name__ == "__main__":
             ax.set_title(
                 f"{bl}  ·  {MODEL_ISIM[model_adi]}\n"
                 f"Accuracy = {acc_val:.3f}  "
-                f"{'✓ H3≥70%' if acc_val>=H3_ESIK else '✗ H3<70%'}",
+                f"{'✓ H≥70%' if acc_val>=H3_ESIK else '✗ H<70%'}",
                 fontsize=9.5, fontweight="bold",
                 color=MODEL_RENK[model_adi],
             )
@@ -587,8 +587,8 @@ if __name__ == "__main__":
     fig, axes = plt.subplots(2, 3, figsize=(22, 14))
     fig.patch.set_facecolor("#F0F4F8")
     fig.suptitle(
-        "Şekil 25 — Model Performans Karşılaştırması: 6 Metrik × 3 Algoritma × 3 Banka\n"
-        "Her renk bir algoritmayı temsil eder  ·  Kesik çizgi: H3 hipotezi %70 eşiği  ·  "
+        "Model Performans Karşılaştırması: 6 Metrik × 3 Algoritma × 3 Banka\n"
+        "Her renk bir algoritmayı temsil eder  ·  Kesik çizgi: Hipotez %70 eşiği  ·  "
         "★ = Her banka için en iyi algoritma",
         fontsize=13, fontweight="bold", y=1.01,
     )
@@ -647,7 +647,7 @@ if __name__ == "__main__":
             ax.axhline(H3_ESIK, color="#B71C1C",
                        ls="--", lw=2, alpha=0.85, zorder=0)
             ax.text(x[-1]+0.42, H3_ESIK+0.01,
-                    "H3\n%70", fontsize=8.5, color="#B71C1C",
+                    "H\n%70", fontsize=8.5, color="#B71C1C",
                     fontweight="bold")
 
         # En iyi algoritma ★
@@ -678,6 +678,7 @@ if __name__ == "__main__":
     print("  ✓ 25_model_karsilastirma.png")
 
     # ─── FİGÜR 26: Özellik Önemi — 3×3 Grid ──────────────────
+    """
     fig, axes = plt.subplots(3, 3, figsize=(24, 22))
     fig.patch.set_facecolor("#F0F4F8")
     fig.suptitle(
@@ -1042,7 +1043,7 @@ if __name__ == "__main__":
                 dpi=150, bbox_inches="tight", facecolor="#0D1117")
     plt.close()
     print("  ✓ 29_radar_algoritma.png")
-
+    """
     # ============================================================
     # 5. TERMİNAL ÖZET
     # ============================================================

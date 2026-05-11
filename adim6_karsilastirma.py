@@ -254,6 +254,7 @@ print("\n✓ Raporlar kaydedildi")
 print("\n[Figürler oluşturuluyor...]")
 
 # ─── FİGÜR 30: Kapsamlı Dashboard ────────────────────────
+"""
 fig = plt.figure(figsize=(22, 16))
 fig.patch.set_facecolor("#F0F4F8")
 gs  = gridspec.GridSpec(3, 3, figure=fig, hspace=0.50, wspace=0.38)
@@ -380,7 +381,10 @@ ax_e.set_xticklabels([AY_TR.get(a, a) for a in ay_list],
 ax_e.legend(fontsize=8)
 ax_e.spines[["top","right"]].set_visible(False)
 
+"""
+
 # Panel F: Model performans özeti (3 banka × 3 algo)
+"""
 ax_f = fig.add_subplot(gs[2, :])
 ax_f.set_facecolor("white")
 MODEL_LISTESI = ["Lojistik_Regresyon", "Random_Forest", "SVM_Dogrusal"]
@@ -514,12 +518,12 @@ plt.savefig("results/figures/31_h1_konu_karsilastirma.png",
             dpi=150, bbox_inches="tight")
 plt.close()
 print("  ✓ 31_h1_konu_karsilastirma.png")
-
+"""
 # ─── FİGÜR 32: H2 & H5 Çözüm × Satisfaction ─────────────
 fig, axes = plt.subplots(2, 3, figsize=(20, 12))
 fig.patch.set_facecolor("#F8F9FA")
 fig.suptitle(
-    "Şekil 32 — H2 & H5 Hipotezleri: Çözüm Durumu × Memnuniyet İlişkisi\n"
+    "Çözüm Durumu × Memnuniyet İlişkisi\n"
     "Üst: Mann-Whitney U istatistikleri  ·  Alt: Satisfaction dağılımı karşılaştırması",
     fontsize=13, fontweight="bold", y=1.01,
 )
@@ -588,12 +592,13 @@ for ci, banka in enumerate(BANKA_SIRASI):
     ax_l.spines[["top","right"]].set_visible(False)
 
 plt.tight_layout()
-plt.savefig("results/figures/32_h2_cozum_satisfaction.png",
+plt.savefig("results/figures/32_cozum_satisfaction.png",
             dpi=150, bbox_inches="tight")
 plt.close()
-print("  ✓ 32_h2_cozum_satisfaction.png")
+print("  ✓ 32_cozum_satisfaction.png")
 
 # ─── FİGÜR 33: H3 Model Isı Haritası ─────────────────────
+"""
 fig, axes = plt.subplots(1, 2, figsize=(18, 7),
                          gridspec_kw={"width_ratios": [2, 1]})
 fig.patch.set_facecolor("#F8F9FA")
@@ -809,12 +814,12 @@ plt.savefig("results/figures/34_h4_trend_analizi.png",
             dpi=150, bbox_inches="tight")
 plt.close()
 print("  ✓ 34_h4_trend_analizi.png")
-
+"""
 # ─── FİGÜR 35: H5 Korelasyon Analizi ─────────────────────
 fig, axes = plt.subplots(1, 3, figsize=(20, 7))
 fig.patch.set_facecolor("#F8F9FA")
 fig.suptitle(
-    "Şekil 35 — H5 Hipotezi: Çözüm Durumu × Memnuniyet Skoru Korelasyonu\n"
+    "Çözüm Durumu × Memnuniyet Skoru Korelasyonu\n"
     "Spearman ρ: rank-based korelasyon · p<0.001 tüm bankalarda istatistiksel olarak anlamlı",
     fontsize=13, fontweight="bold", y=1.01,
 )
@@ -876,12 +881,13 @@ for ax, banka in zip(axes, BANKA_SIRASI):
     ax.spines[["top","right"]].set_visible(False)
 
 plt.tight_layout()
-plt.savefig("results/figures/35_h5_satisfaction_iliski.png",
+plt.savefig("results/figures/35_satisfaction_iliski.png",
             dpi=150, bbox_inches="tight")
 plt.close()
-print("  ✓ 35_h5_satisfaction_iliski.png")
+print("  ✓ 35_satisfaction_iliski.png")
 
 # ─── FİGÜR 36: Banka Profil Radar ────────────────────────
+"""
 RADAR_DIMS = [
     ("cozum_orani",    "Çözüm\nOranı"),
     ("yanit_orani",    "Yanıt\nOranı"),
@@ -1242,7 +1248,7 @@ plt.savefig("results/figures/39_executive_dashboard.png",
             dpi=150, bbox_inches="tight", facecolor="#1A1A2E")
 plt.close()
 print("  ✓ 39_executive_dashboard.png")
-
+"""
 # ============================================================
 # 4. TERMİNAL ÖZET
 # ============================================================

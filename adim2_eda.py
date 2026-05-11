@@ -451,7 +451,7 @@ print("  ✓ 03_satisfaction_dagilimi.png")
 # FİGÜR 04: Memnuniyet — Çözüldü vs Çözülmedi
 # Mann-Whitney U testi (2 grup, parametrik olmayan — doğru seçim)
 # ----------------------------------------------------------
-fig, axes = plt.subplots(1, 3, figsize=(15, 6))
+"""fig, axes = plt.subplots(1, 3, figsize=(15, 6))
 fig.suptitle(
     "Çözülme Durumuna Göre Memnuniyet Skoru\n"
     "Mann-Whitney U Testi (parametrik olmayan, 2 grup karşılaştırması)",
@@ -501,7 +501,7 @@ plt.savefig("results/figures/04_satisfaction_cozum_karsilastirma.png",
             dpi=150, bbox_inches="tight")
 plt.close()
 print("  ✓ 04_satisfaction_cozum_karsilastirma.png")
-
+"""
 # ----------------------------------------------------------
 # FİGÜR 05: Aylık Şikayet Trendi
 # ----------------------------------------------------------

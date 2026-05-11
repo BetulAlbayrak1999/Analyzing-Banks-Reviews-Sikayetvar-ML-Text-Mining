@@ -717,6 +717,7 @@ plt.savefig("results/figures/10_onisleme_karsilastirma.png",
 plt.close()
 print("  ✓ 10_onisleme_karsilastirma.png")
 
+"""
 # ─── FİGÜR 11: Kelime Bulutu (anlamlı — bozuk stemler yok) ─
 if WORDCLOUD_VAR:
     fig, axes = plt.subplots(1, 3, figsize=(20, 7))
@@ -897,10 +898,10 @@ print("  ✓ 13_kelime_uzunluk_dagilimi.png")
 
 # ─── FİGÜR 14: Çözüldü vs Çözülmedi Kelime Farkı ─────────
 def karakteristik_kelimeler(alt_df, metin_sutun="temiz_metin", topk=12):
-    """
-    TF oranı farkına dayalı karakteristik kelime tespiti.
-    Skor = (oran_A - oran_B) / (oran_A + oran_B + ε)
-    """
+    
+    #TF oranı farkına dayalı karakteristik kelime tespiti.
+    #Skor = (oran_A - oran_B) / (oran_A + oran_B + ε)
+    
     coz  = alt_df[alt_df["is_resolved"]=="Çözüldü"][metin_sutun]
     cdeg = alt_df[alt_df["is_resolved"]=="Çözülmedi"][metin_sutun]
 
@@ -1102,7 +1103,7 @@ plt.savefig("results/figures/15_token_kalite_panel.png",
             dpi=150, bbox_inches="tight")
 plt.close()
 print("  ✓ 15_token_kalite_panel.png")
-
+"""
 # ─── FİGÜR 16: Stop-Word Etkinlik Analizi ────────────────
 if len(stop_etk) > 0:
     top_stop = stop_etk.head(25).copy()
