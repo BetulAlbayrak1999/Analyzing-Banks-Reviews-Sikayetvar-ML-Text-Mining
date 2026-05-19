@@ -1,6 +1,6 @@
 ﻿Hipotez,Açıklama,Sonuç,Kanıt
-H1,Şikayet konuları bankalar arası anlamlı farklılık göstermektedir,DESTEKLENDI,"Her banka için farklı optimal konu sayısı: VakıfBank k=9, İşBankası k=7, Kuveyt Türk k=3"
-H2,Belirli şikayet kategorileri çözülmeme olasılığını artırmaktadır,DESTEKLENDI,"Mann-Whitney U testi: p<0.001 tüm bankalarda. Çözülen: medyan=4.0, Çözülmeyen: medyan=1.0. Kruskal-Wallis (3 banka): H=183.83, p=0.000000"
-H3,ML modelleri ≥%70 accuracy ile çözüm tahmini yapabilmektedir,KISMEN,"6/9 model H3 eşiğini aştı. En iyi: VakıfBank-SVM=0.761, İşBankası-SVM=0.739, KuveytTürk-RF=0.741"
-H4,Şikayet yoğunluğu belirli dönemlerde anlamlı artış göstermektedir,KISMEN,"Anlamlı trend (p<0.05): İşBankası, Kuveyt Türk. VakıfBank: p=0.135 (anlamsız), İşBankası: p=0.004, Kuveyt Türk: p=0.000"
-H5,Çözüm durumu ile memnuniyet skoru arasında pozitif ilişki vardır,DESTEKLENDI,VakıfBank: Spearman ρ=0.548 p<0.001 | İşBankası: Spearman ρ=0.613 p<0.001 | Kuveyt Türk: Spearman ρ=0.500 p<0.001
+H1,Şikayet konuları bankalar arası anlamlı farklılık göstermektedir,DESTEKLENDI,"Her banka için farklı optimal konu sayısı: VakıfBank k=6, İşBankası k=4, Kuveyt Türk k=8"
+H2,Belirli şikayet kategorileri çözülmeme olasılığını artırmaktadır,DESTEKLENDI,"Mann-Whitney U testi: p<0.001 tüm bankalarda. Çözülen: medyan=4.0, Çözülmeyen: medyan=1.0. Kruskal-Wallis (3 banka): H=198.90, p=0.000000"
+H3,ML modelleri ≥%70 accuracy ile çözüm tahmini yapabilmektedir,KISMEN,"3/9 model H3 eşiğini aştı. En iyi: VakıfBank-SVM=0.761, İşBankası-SVM=0.739, KuveytTürk-RF=0.741"
+H4,Şikayet yoğunluğu belirli dönemlerde anlamlı artış göstermektedir,KISMEN,"Anlamlı trend (p<0.05): . VakıfBank: p=0.135 (anlamsız), İşBankası: p=0.004, Kuveyt Türk: p=0.000"
+H5,Çözüm durumu ile memnuniyet skoru arasında pozitif ilişki vardır,DESTEKLENDI,VakıfBank: Spearman ρ=0.555 p<0.001 | İşBankası: Spearman ρ=0.551 p<0.001 | Kuveyt Türk: Spearman ρ=0.529 p<0.001

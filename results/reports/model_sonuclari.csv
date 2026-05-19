@@ -1,10 +1,10 @@
 ﻿Banka,Banka_TR,Model,Accuracy,Precision,Recall,F1_Agirlik,F1_Cozuldu,ROC_AUC,H3_Sagland,CV_F1_Ort,CV_F1_Std
-VakifBank,VakıfBank,Lojistik_Regresyon,0.7036,0.8013,0.7036,0.7027,0.707,0.808,True,0.7217,0.0167
-VakifBank,VakıfBank,Random_Forest,0.7215,0.7175,0.7215,0.7187,0.614,0.8273,True,0.7414,0.0219
-VakifBank,VakıfBank,SVM_Dogrusal,0.7658,0.7723,0.7658,0.7678,0.7056,0.8618,True,0.7729,0.0165
-IsBank,İşBankası,Lojistik_Regresyon,0.5838,0.6512,0.5838,0.5938,0.528,0.6804,False,0.6076,0.0194
-IsBank,İşBankası,Random_Forest,0.6896,0.6963,0.6896,0.6924,0.5622,0.7135,False,0.7049,0.0165
-IsBank,İşBankası,SVM_Dogrusal,0.7266,0.7306,0.7266,0.6868,0.428,0.7356,True,0.5533,0.0121
-KuveytTurk,Kuveyt Türk,Lojistik_Regresyon,0.6073,0.6893,0.6073,0.6237,0.5109,0.6872,False,0.6171,0.0247
-KuveytTurk,Kuveyt Türk,Random_Forest,0.7422,0.7342,0.7422,0.7372,0.542,0.7506,True,0.7155,0.0158
-KuveytTurk,Kuveyt Türk,SVM_Dogrusal,0.7422,0.7305,0.7422,0.6987,0.3738,0.7372,True,0.6931,0.0198
+VakifBank,VakıfBank,Lojistik_Regresyon,0.6776,0.7002,0.6776,0.6756,0.6621,0.7744,False,0.6119,0.038
+VakifBank,VakıfBank,Random_Forest,0.7368,0.7563,0.7368,0.736,0.7297,0.8254,True,0.7046,0.0416
+VakifBank,VakıfBank,SVM_Dogrusal,0.6842,0.6836,0.6842,0.6838,0.7143,0.7992,False,0.6673,0.0443
+IsBank,İşBankası,Lojistik_Regresyon,0.6616,0.6886,0.6616,0.6735,0.3324,0.5989,False,0.6933,0.0102
+IsBank,İşBankası,Random_Forest,0.7238,0.7417,0.7238,0.7315,0.4413,0.6663,True,0.7331,0.0089
+IsBank,İşBankası,SVM_Dogrusal,0.7804,0.7972,0.7804,0.6931,0.0702,0.6842,True,0.6879,0.0073
+KuveytTurk,Kuveyt Türk,Lojistik_Regresyon,0.6114,0.6151,0.6114,0.6128,0.5536,0.6615,False,0.6041,0.0294
+KuveytTurk,Kuveyt Türk,Random_Forest,0.6627,0.6579,0.6627,0.6539,0.5484,0.6671,False,0.6708,0.0221
+KuveytTurk,Kuveyt Türk,SVM_Dogrusal,0.6506,0.6466,0.6506,0.6339,0.5,0.6879,False,0.6549,0.0186

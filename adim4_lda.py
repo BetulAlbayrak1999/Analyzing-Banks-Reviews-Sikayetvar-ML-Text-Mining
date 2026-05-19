@@ -2,7 +2,7 @@
 =============================================================
 ADIM 4 (UZMAN): LDA KONU MODELLEME (Topic Modeling)
 =============================================================
-Bankacılık Sektörü Müşteri Şikayet Analizi — 2025
+Bankacılık Sektörü Müşteri Şikayet Analizi — 2026
 Kuveyt Türk | VakıfBank | İşBankası
 
 TEMEL TASARIM KARARLARI:
@@ -716,10 +716,10 @@ if __name__ == "__main__":
     )
 
     AY_TR = {
-        "2025-01": "Oca", "2025-02": "Şub", "2025-03": "Mar",
-        "2025-04": "Nis", "2025-05": "May", "2025-06": "Haz",
-        "2025-07": "Tem", "2025-08": "Ağu", "2025-09": "Eyl",
-        "2025-10": "Eki", "2025-11": "Kas", "2025-12": "Ara",
+        "2026-01": "Oca", "2026-02": "Şub", "2026-03": "Mar",
+        "2026-04": "Nis", "2026-05": "May", "2026-06": "Haz",
+        "2026-07": "Tem", "2026-08": "Ağu", "2026-09": "Eyl",
+        "2026-10": "Eki", "2026-11": "Kas", "2026-12": "Ara",
     }
 
     for ax, banka in zip(axes, BANKA_SIRASI):
@@ -767,7 +767,7 @@ if __name__ == "__main__":
             fontsize=8, rotation=45)
         ax.set_title(f"{bl}", fontsize=11, fontweight="bold",
                      color=renk)
-        ax.set_xlabel("Ay (2025)", fontsize=9)
+        ax.set_xlabel("Ay (2026)", fontsize=9)
         ax.set_ylabel("Şikayet Sayısı" if ax == axes[0] else "",
                       fontsize=9)
         ax.legend(fontsize=7, loc="upper right",

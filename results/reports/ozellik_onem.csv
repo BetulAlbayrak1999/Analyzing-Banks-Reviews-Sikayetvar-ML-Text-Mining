@@ -1,121 +1,121 @@
 ﻿Banka,Model,Yon,Terim,Agirlik
-VakıfBank,Lojistik_Regresyon,Çözüldü,has_reply,3.16536
-VakıfBank,Lojistik_Regresyon,Çözüldü,sigorta,0.51765
-VakıfBank,Lojistik_Regresyon,Çözüldü,kaz,0.27466
-VakıfBank,Lojistik_Regresyon,Çözüldü,fer,0.27404
-VakıfBank,Lojistik_Regresyon,Çözüldü,fer kaz,0.26939
-VakıfBank,Lojistik_Regresyon,Çözüldü,kaz sigorta,0.26464
-VakıfBank,Lojistik_Regresyon,Çözüldü,kredi kredi,0.22775
-VakıfBank,Lojistik_Regresyon,Çözüldü,iade,0.21709
-VakıfBank,Lojistik_Regresyon,Çözüldü,tutar,0.20296
-VakıfBank,Lojistik_Regresyon,Çözüldü,ihtiyaç kredi,0.16895
-VakıfBank,Lojistik_Regresyon,Çözülmedi,limit,-0.3565
-VakıfBank,Lojistik_Regresyon,Çözülmedi,view_log,-0.31398
-VakıfBank,Lojistik_Regresyon,Çözülmedi,faiz,-0.28235
-VakıfBank,Lojistik_Regresyon,Çözülmedi,maaş,-0.2689
-VakıfBank,Lojistik_Regresyon,Çözülmedi,borç,-0.26261
-VakıfBank,Lojistik_Regresyon,Çözülmedi,sky,-0.22388
-VakıfBank,Lojistik_Regresyon,Çözülmedi,sky limit,-0.20985
-VakıfBank,Lojistik_Regresyon,Çözülmedi,yapılandırma,-0.1998
-VakıfBank,Lojistik_Regresyon,Çözülmedi,yatır,-0.18806
-VakıfBank,Lojistik_Regresyon,Çözülmedi,ödeme,-0.17775
-VakıfBank,SVM_Dogrusal,Çözüldü,has_reply,1.73625
-VakıfBank,SVM_Dogrusal,Çözüldü,sigorta,0.89189
-VakıfBank,SVM_Dogrusal,Çözüldü,kredi,0.83167
-VakıfBank,SVM_Dogrusal,Çözüldü,kredi kredi,0.7754
-VakıfBank,SVM_Dogrusal,Çözüldü,bankomat,0.7019
-VakıfBank,SVM_Dogrusal,Çözüldü,verilme,0.69156
-VakıfBank,SVM_Dogrusal,Çözüldü,gönderme,0.64904
-VakıfBank,SVM_Dogrusal,Çözüldü,iade,0.58688
-VakıfBank,SVM_Dogrusal,Çözüldü,worldpuan,0.5744
-VakıfBank,SVM_Dogrusal,Çözüldü,kapsam,0.56844
-VakıfBank,SVM_Dogrusal,Çözülmedi,faiz,-0.82041
-VakıfBank,SVM_Dogrusal,Çözülmedi,limit,-0.76775
-VakıfBank,SVM_Dogrusal,Çözülmedi,çekil,-0.75661
-VakıfBank,SVM_Dogrusal,Çözülmedi,yatır,-0.72442
-VakıfBank,SVM_Dogrusal,Çözülmedi,ora,-0.69936
-VakıfBank,SVM_Dogrusal,Çözülmedi,yapılandırma,-0.64809
-VakıfBank,SVM_Dogrusal,Çözülmedi,yüz,-0.63071
-VakıfBank,SVM_Dogrusal,Çözülmedi,promosyo,-0.62838
-VakıfBank,SVM_Dogrusal,Çözülmedi,oyak,-0.62264
-VakıfBank,SVM_Dogrusal,Çözülmedi,almak,-0.61831
-İşBankası,Lojistik_Regresyon,Çözüldü,has_reply,0.61858
-İşBankası,Lojistik_Regresyon,Çözüldü,bilgi,0.29814
-İşBankası,Lojistik_Regresyon,Çözüldü,kredi,0.23313
-İşBankası,Lojistik_Regresyon,Çözüldü,çek,0.18646
-İşBankası,Lojistik_Regresyon,Çözüldü,alışveriş,0.16886
-İşBankası,Lojistik_Regresyon,Çözüldü,gerçekleş,0.15773
-İşBankası,Lojistik_Regresyon,Çözüldü,kredi bilgi,0.1497
-İşBankası,Lojistik_Regresyon,Çözüldü,itiraz,0.13367
-İşBankası,Lojistik_Regresyon,Çözüldü,para,0.12771
-İşBankası,Lojistik_Regresyon,Çözüldü,harcama,0.1275
-İşBankası,Lojistik_Regresyon,Çözülmedi,aidat,-0.35366
-İşBankası,Lojistik_Regresyon,Çözülmedi,kart aidat,-0.23899
-İşBankası,Lojistik_Regresyon,Çözülmedi,sür,-0.17063
-İşBankası,Lojistik_Regresyon,Çözülmedi,ekstre,-0.1544
-İşBankası,Lojistik_Regresyon,Çözülmedi,aktif,-0.15361
-İşBankası,Lojistik_Regresyon,Çözülmedi,hesap,-0.13138
-İşBankası,Lojistik_Regresyon,Çözülmedi,ücret,-0.13041
-İşBankası,Lojistik_Regresyon,Çözülmedi,kan,-0.12539
-İşBankası,Lojistik_Regresyon,Çözülmedi,tutar kart,-0.1251
-İşBankası,Lojistik_Regresyon,Çözülmedi,yansıtıl,-0.12005
-İşBankası,SVM_Dogrusal,Çözüldü,kredi,1.29545
-İşBankası,SVM_Dogrusal,Çözüldü,kredi kart,0.85173
-İşBankası,SVM_Dogrusal,Çözüldü,reh,0.75088
-İşBankası,SVM_Dogrusal,Çözüldü,kredi üyelik,0.73651
-İşBankası,SVM_Dogrusal,Çözüldü,emekli,0.72723
-İşBankası,SVM_Dogrusal,Çözüldü,bilgi,0.69233
-İşBankası,SVM_Dogrusal,Çözüldü,kullanmadı,0.65551
-İşBankası,SVM_Dogrusal,Çözüldü,çekil,0.62132
-İşBankası,SVM_Dogrusal,Çözüldü,firma,0.62105
-İşBankası,SVM_Dogrusal,Çözüldü,gerçekleş,0.58851
-İşBankası,SVM_Dogrusal,Çözülmedi,sür,-1.02469
-İşBankası,SVM_Dogrusal,Çözülmedi,sır,-0.75387
-İşBankası,SVM_Dogrusal,Çözülmedi,çözülme,-0.68719
-İşBankası,SVM_Dogrusal,Çözülmedi,yük,-0.66048
-İşBankası,SVM_Dogrusal,Çözülmedi,ekstre,-0.64563
-İşBankası,SVM_Dogrusal,Çözülmedi,nede,-0.63598
-İşBankası,SVM_Dogrusal,Çözülmedi,telefo,-0.63307
-İşBankası,SVM_Dogrusal,Çözülmedi,aktif,-0.62797
-İşBankası,SVM_Dogrusal,Çözülmedi,euro,-0.61047
-İşBankası,SVM_Dogrusal,Çözülmedi,aidat,-0.60773
-Kuveyt Türk,Lojistik_Regresyon,Çözüldü,has_reply,0.80951
-Kuveyt Türk,Lojistik_Regresyon,Çözüldü,kampanya,0.42876
-Kuveyt Türk,Lojistik_Regresyon,Çözüldü,iade,0.24278
-Kuveyt Türk,Lojistik_Regresyon,Çözüldü,kampüs,0.22758
-Kuveyt Türk,Lojistik_Regresyon,Çözüldü,kampanya şart,0.22154
-Kuveyt Türk,Lojistik_Regresyon,Çözüldü,kampüslüs,0.22117
-Kuveyt Türk,Lojistik_Regresyon,Çözüldü,kapsam,0.21914
-Kuveyt Türk,Lojistik_Regresyon,Çözüldü,alışveriş,0.21454
-Kuveyt Türk,Lojistik_Regresyon,Çözüldü,kart,0.21452
-Kuveyt Türk,Lojistik_Regresyon,Çözüldü,şart,0.21361
-Kuveyt Türk,Lojistik_Regresyon,Çözülmedi,para,-0.33334
-Kuveyt Türk,Lojistik_Regresyon,Çözülmedi,temsilci,-0.22147
-Kuveyt Türk,Lojistik_Regresyon,Çözülmedi,uygulama,-0.18634
-Kuveyt Türk,Lojistik_Regresyon,Çözülmedi,yapamıyor,-0.17793
-Kuveyt Türk,Lojistik_Regresyon,Çözülmedi,ücret,-0.15822
-Kuveyt Türk,Lojistik_Regresyon,Çözülmedi,ödeme,-0.15578
-Kuveyt Türk,Lojistik_Regresyon,Çözülmedi,çalışıyor,-0.14755
-Kuveyt Türk,Lojistik_Regresyon,Çözülmedi,giriş yapamıyor,-0.14141
-Kuveyt Türk,Lojistik_Regresyon,Çözülmedi,hesap,-0.14077
-Kuveyt Türk,Lojistik_Regresyon,Çözülmedi,bes,-0.14069
-Kuveyt Türk,SVM_Dogrusal,Çözüldü,dedi,0.84556
-Kuveyt Türk,SVM_Dogrusal,Çözüldü,cep,0.8186
-Kuveyt Türk,SVM_Dogrusal,Çözüldü,tamamla,0.80863
-Kuveyt Türk,SVM_Dogrusal,Çözüldü,kampüs,0.79432
-Kuveyt Türk,SVM_Dogrusal,Çözüldü,kampüslüs,0.77777
-Kuveyt Türk,SVM_Dogrusal,Çözüldü,xxxx,0.74669
-Kuveyt Türk,SVM_Dogrusal,Çözüldü,gidip,0.68762
-Kuveyt Türk,SVM_Dogrusal,Çözüldü,aşama,0.66441
-Kuveyt Türk,SVM_Dogrusal,Çözüldü,yapılamamak,0.64025
-Kuveyt Türk,SVM_Dogrusal,Çözüldü,klü,0.64016
-Kuveyt Türk,SVM_Dogrusal,Çözülmedi,bes,-0.7977
-Kuveyt Türk,SVM_Dogrusal,Çözülmedi,para,-0.78021
-Kuveyt Türk,SVM_Dogrusal,Çözülmedi,yok,-0.77872
-Kuveyt Türk,SVM_Dogrusal,Çözülmedi,belirtilme,-0.75511
-Kuveyt Türk,SVM_Dogrusal,Çözülmedi,yle,-0.72336
-Kuveyt Türk,SVM_Dogrusal,Çözülmedi,ücret,-0.71081
-Kuveyt Türk,SVM_Dogrusal,Çözülmedi,gelmiyor,-0.68769
-Kuveyt Türk,SVM_Dogrusal,Çözülmedi,karşılaşıyor,-0.67506
-Kuveyt Türk,SVM_Dogrusal,Çözülmedi,yatırma,-0.67454
-Kuveyt Türk,SVM_Dogrusal,Çözülmedi,laz,-0.63791
+VakıfBank,Lojistik_Regresyon,Çözüldü,kredi,0.38099
+VakıfBank,Lojistik_Regresyon,Çözüldü,sigorta,0.36606
+VakıfBank,Lojistik_Regresyon,Çözüldü,has_reply,0.30494
+VakıfBank,Lojistik_Regresyon,Çözüldü,ihtiyaç,0.29246
+VakıfBank,Lojistik_Regresyon,Çözüldü,ihtiyaç kredi,0.27836
+VakıfBank,Lojistik_Regresyon,Çözüldü,kredi kredi,0.25876
+VakıfBank,Lojistik_Regresyon,Çözüldü,fer,0.19284
+VakıfBank,Lojistik_Regresyon,Çözüldü,fer kaz,0.18863
+VakıfBank,Lojistik_Regresyon,Çözüldü,ücret,0.18686
+VakıfBank,Lojistik_Regresyon,Çözüldü,kaz sigorta,0.18664
+VakıfBank,Lojistik_Regresyon,Çözülmedi,borç,-0.26557
+VakıfBank,Lojistik_Regresyon,Çözülmedi,promosyo,-0.24748
+VakıfBank,Lojistik_Regresyon,Çözülmedi,maaş,-0.21403
+VakıfBank,Lojistik_Regresyon,Çözülmedi,maaş promosyo,-0.17
+VakıfBank,Lojistik_Regresyon,Çözülmedi,karar,-0.16997
+VakıfBank,Lojistik_Regresyon,Çözülmedi,yapılandırma,-0.16845
+VakıfBank,Lojistik_Regresyon,Çözülmedi,view_log,-0.15786
+VakıfBank,Lojistik_Regresyon,Çözülmedi,pos,-0.15443
+VakıfBank,Lojistik_Regresyon,Çözülmedi,pos cihaz,-0.15127
+VakıfBank,Lojistik_Regresyon,Çözülmedi,hesap borç,-0.14486
+VakıfBank,SVM_Dogrusal,Çözüldü,kredi,0.88674
+VakıfBank,SVM_Dogrusal,Çözüldü,sigorta,0.64799
+VakıfBank,SVM_Dogrusal,Çözüldü,telefo,0.6253
+VakıfBank,SVM_Dogrusal,Çözüldü,ücret,0.60969
+VakıfBank,SVM_Dogrusal,Çözüldü,ihtiyaç,0.57859
+VakıfBank,SVM_Dogrusal,Çözüldü,onay,0.5615
+VakıfBank,SVM_Dogrusal,Çözüldü,kredi kredi,0.54796
+VakıfBank,SVM_Dogrusal,Çözüldü,kiş,0.52713
+VakıfBank,SVM_Dogrusal,Çözüldü,poliç,0.52222
+VakıfBank,SVM_Dogrusal,Çözüldü,hat,0.51228
+VakıfBank,SVM_Dogrusal,Çözülmedi,karar,-0.71062
+VakıfBank,SVM_Dogrusal,Çözülmedi,pos cihaz,-0.5576
+VakıfBank,SVM_Dogrusal,Çözülmedi,usd,-0.52856
+VakıfBank,SVM_Dogrusal,Çözülmedi,worldcardı,-0.50173
+VakıfBank,SVM_Dogrusal,Çözülmedi,yapma,-0.49438
+VakıfBank,SVM_Dogrusal,Çözülmedi,gerekçe,-0.49323
+VakıfBank,SVM_Dogrusal,Çözülmedi,promosyo,-0.48386
+VakıfBank,SVM_Dogrusal,Çözülmedi,pos,-0.48204
+VakıfBank,SVM_Dogrusal,Çözülmedi,hesap borç,-0.48091
+VakıfBank,SVM_Dogrusal,Çözülmedi,yapılandırma,-0.45987
+İşBankası,Lojistik_Regresyon,Çözüldü,has_reply,0.60362
+İşBankası,Lojistik_Regresyon,Çözüldü,bilgi,0.35539
+İşBankası,Lojistik_Regresyon,Çözüldü,kredi bilgi,0.21047
+İşBankası,Lojistik_Regresyon,Çözüldü,çek,0.19963
+İşBankası,Lojistik_Regresyon,Çözüldü,iyzico,0.18553
+İşBankası,Lojistik_Regresyon,Çözüldü,para,0.16901
+İşBankası,Lojistik_Regresyon,Çözüldü,sigorta,0.16683
+İşBankası,Lojistik_Regresyon,Çözüldü,buluna,0.16201
+İşBankası,Lojistik_Regresyon,Çözüldü,tutar harca,0.15167
+İşBankası,Lojistik_Regresyon,Çözüldü,harca,0.14932
+İşBankası,Lojistik_Regresyon,Çözülmedi,kart,-0.31903
+İşBankası,Lojistik_Regresyon,Çözülmedi,aidat,-0.30694
+İşBankası,Lojistik_Regresyon,Çözülmedi,ücret,-0.28461
+İşBankası,Lojistik_Regresyon,Çözülmedi,kart aidat,-0.23864
+İşBankası,Lojistik_Regresyon,Çözülmedi,tutar kart,-0.17003
+İşBankası,Lojistik_Regresyon,Çözülmedi,sür,-0.15466
+İşBankası,Lojistik_Regresyon,Çözülmedi,kredi kart,-0.15307
+İşBankası,Lojistik_Regresyon,Çözülmedi,kabul,-0.15002
+İşBankası,Lojistik_Regresyon,Çözülmedi,düzenli,-0.14862
+İşBankası,Lojistik_Regresyon,Çözülmedi,yansıtıl,-0.14192
+İşBankası,SVM_Dogrusal,Çözüldü,buluna,0.92548
+İşBankası,SVM_Dogrusal,Çözüldü,sebep,0.82788
+İşBankası,SVM_Dogrusal,Çözüldü,maaş yaptık,0.77885
+İşBankası,SVM_Dogrusal,Çözüldü,kesim,0.76984
+İşBankası,SVM_Dogrusal,Çözüldü,alamadı,0.74105
+İşBankası,SVM_Dogrusal,Çözüldü,başvurduk,0.73976
+İşBankası,SVM_Dogrusal,Çözüldü,yanlışlık,0.72552
+İşBankası,SVM_Dogrusal,Çözüldü,iyzico,0.68639
+İşBankası,SVM_Dogrusal,Çözüldü,bilgi,0.68181
+İşBankası,SVM_Dogrusal,Çözüldü,veril,0.67979
+İşBankası,SVM_Dogrusal,Çözülmedi,şube,-0.82546
+İşBankası,SVM_Dogrusal,Çözülmedi,hal,-0.68985
+İşBankası,SVM_Dogrusal,Çözülmedi,tamam,-0.65691
+İşBankası,SVM_Dogrusal,Çözülmedi,yük,-0.65022
+İşBankası,SVM_Dogrusal,Çözülmedi,kabul,-0.64645
+İşBankası,SVM_Dogrusal,Çözülmedi,kimlik,-0.63498
+İşBankası,SVM_Dogrusal,Çözülmedi,kesil,-0.63333
+İşBankası,SVM_Dogrusal,Çözülmedi,aradı,-0.61433
+İşBankası,SVM_Dogrusal,Çözülmedi,kapatma,-0.5912
+İşBankası,SVM_Dogrusal,Çözülmedi,temsilci,-0.57882
+Kuveyt Türk,Lojistik_Regresyon,Çözüldü,kampanya,0.41758
+Kuveyt Türk,Lojistik_Regresyon,Çözüldü,tutar,0.30344
+Kuveyt Türk,Lojistik_Regresyon,Çözüldü,has_reply,0.29713
+Kuveyt Türk,Lojistik_Regresyon,Çözüldü,parça,0.23085
+Kuveyt Türk,Lojistik_Regresyon,Çözüldü,alışveriş,0.20907
+Kuveyt Türk,Lojistik_Regresyon,Çözüldü,kampüslüs,0.20329
+Kuveyt Türk,Lojistik_Regresyon,Çözüldü,şart,0.18646
+Kuveyt Türk,Lojistik_Regresyon,Çözüldü,kredi bilgi,0.18008
+Kuveyt Türk,Lojistik_Regresyon,Çözüldü,kredi,0.1772
+Kuveyt Türk,Lojistik_Regresyon,Çözüldü,bilgi,0.16302
+Kuveyt Türk,Lojistik_Regresyon,Çözülmedi,emeklilik,-0.17522
+Kuveyt Türk,Lojistik_Regresyon,Çözülmedi,temsilci,-0.17413
+Kuveyt Türk,Lojistik_Regresyon,Çözülmedi,hesap,-0.15229
+Kuveyt Türk,Lojistik_Regresyon,Çözülmedi,bireysel emeklilik,-0.1405
+Kuveyt Türk,Lojistik_Regresyon,Çözülmedi,view_log,-0.13916
+Kuveyt Türk,Lojistik_Regresyon,Çözülmedi,bireysel,-0.13564
+Kuveyt Türk,Lojistik_Regresyon,Çözülmedi,şube,-0.13348
+Kuveyt Türk,Lojistik_Regresyon,Çözülmedi,çalışıyor,-0.1283
+Kuveyt Türk,Lojistik_Regresyon,Çözülmedi,deneme,-0.12173
+Kuveyt Türk,Lojistik_Regresyon,Çözülmedi,müşteris,-0.11045
+Kuveyt Türk,SVM_Dogrusal,Çözüldü,kampanya,0.95023
+Kuveyt Türk,SVM_Dogrusal,Çözüldü,tutar,0.75704
+Kuveyt Türk,SVM_Dogrusal,Çözüldü,fast,0.67729
+Kuveyt Türk,SVM_Dogrusal,Çözüldü,kasko,0.64204
+Kuveyt Türk,SVM_Dogrusal,Çözüldü,kampüslüs,0.59802
+Kuveyt Türk,SVM_Dogrusal,Çözüldü,firma tesl,0.59094
+Kuveyt Türk,SVM_Dogrusal,Çözüldü,alıyor,0.56858
+Kuveyt Türk,SVM_Dogrusal,Çözüldü,gün,0.54116
+Kuveyt Türk,SVM_Dogrusal,Çözüldü,iyzico,0.53865
+Kuveyt Türk,SVM_Dogrusal,Çözüldü,kredi bilgi,0.52551
+Kuveyt Türk,SVM_Dogrusal,Çözülmedi,emeklilik,-0.68918
+Kuveyt Türk,SVM_Dogrusal,Çözülmedi,müşteris,-0.65929
+Kuveyt Türk,SVM_Dogrusal,Çözülmedi,geçtik,-0.63937
+Kuveyt Türk,SVM_Dogrusal,Çözülmedi,zaman,-0.62218
+Kuveyt Türk,SVM_Dogrusal,Çözülmedi,çalışıyor,-0.57484
+Kuveyt Türk,SVM_Dogrusal,Çözülmedi,adres,-0.55252
+Kuveyt Türk,SVM_Dogrusal,Çözülmedi,bireysel emeklilik,-0.54377
+Kuveyt Türk,SVM_Dogrusal,Çözülmedi,deneme,-0.53855
+Kuveyt Türk,SVM_Dogrusal,Çözülmedi,aşama,-0.53517
+Kuveyt Türk,SVM_Dogrusal,Çözülmedi,bes,-0.5257

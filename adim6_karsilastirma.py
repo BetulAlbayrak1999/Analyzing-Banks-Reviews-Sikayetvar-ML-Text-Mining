@@ -2,7 +2,7 @@
 =============================================================
 ADIM 6 (UZMAN): KARŞILAŞTIRMALI ANALİZ VE HİPOTEZ RAPORLAMA
 =============================================================
-Bankacılık Sektörü Müşteri Şikayet Analizi — 2025
+Bankacılık Sektörü Müşteri Şikayet Analizi — 2026
 Kuveyt Türk | VakıfBank | İşBankası
 
 HİPOTEZ TESTLERİ:
@@ -67,10 +67,10 @@ BANKA_RENK = {
 BANKA_LABEL = [BANKA_TR[b] for b in BANKA_SIRASI]
 COZUM_RENK  = {"Çözüldü": "#43A047", "Çözülmedi": "#E53935"}
 AY_TR = {
-    "2025-01":"Oca","2025-02":"Şub","2025-03":"Mar",
-    "2025-04":"Nis","2025-05":"May","2025-06":"Haz",
-    "2025-07":"Tem","2025-08":"Ağu","2025-09":"Eyl",
-    "2025-10":"Eki","2025-11":"Kas","2025-12":"Ara",
+    "2026-01":"Oca","2026-02":"Şub","2026-03":"Mar",
+    "2026-04":"Nis","2026-05":"May","2026-06":"Haz",
+    "2026-07":"Tem","2026-08":"Ağu","2026-09":"Eyl",
+    "2026-10":"Eki","2026-11":"Kas","2026-12":"Ara",
 }
 H3_ESIK = 0.70
 
@@ -260,7 +260,7 @@ fig.patch.set_facecolor("#F0F4F8")
 gs  = gridspec.GridSpec(3, 3, figure=fig, hspace=0.50, wspace=0.38)
 fig.suptitle(
     "Şekil 30 — Bankacılık Şikayet Analizi: Kapsamlı Genel Bakış Panosu\n"
-    "Kuveyt Türk | VakıfBank | İşBankası — Şikayetvar 2025",
+    "Kuveyt Türk | VakıfBank | İşBankası — Şikayetvar 2026",
     fontsize=15, fontweight="bold", y=1.01,
 )
 
@@ -1107,7 +1107,7 @@ print("  ✓ 38_yanit_orani_analizi.png")
 fig = plt.figure(figsize=(22, 14))
 fig.patch.set_facecolor("#1A1A2E")
 fig.suptitle(
-    "Şekil 39 — Yönetici Özet Panosu  |  Bankacılık Şikayet Analizi 2025",
+    "Şekil 39 — Yönetici Özet Panosu  |  Bankacılık Şikayet Analizi 2026",
     fontsize=16, fontweight="bold", color="white", y=1.01,
 )
 gs_ex = gridspec.GridSpec(3, 5, figure=fig,
@@ -1123,7 +1123,7 @@ KOYU_KIRMIZI = "#F44336"
 
 # Üst 4 metrik kartı
 metrik_kartlar = [
-    ("Toplam Şikayet", f"{len(veri):,}", "#1E88E5", "Şikayetvar 2025"),
+    ("Toplam Şikayet", f"{len(veri):,}", "#1E88E5", "Şikayetvar 2026"),
     ("Genel Çözüm Oranı",
      f"%{veri['hedef'].mean()*100:.1f}", "#43A047",
      "3 banka ortalaması"),

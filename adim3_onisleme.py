@@ -2,7 +2,7 @@
 =============================================================
 ADIM 3 (v2 — TAM İYİLEŞTİRİLMİŞ): TÜRKÇE METİN ÖN İŞLEME
 =============================================================
-Bankacılık Sektörü Müşteri Şikayet Analizi — 2025
+Bankacılık Sektörü Müşteri Şikayet Analizi — 2026
 Kuveyt Türk | VakıfBank | İşBankası
 
 TEMEL DÜZELTMELER (v1 → v2):
@@ -536,9 +536,9 @@ print()
 print("[Veriler yükleniyor...]")
 
 DOSYALAR = {
-    "VakifBank":  "data/raw/sikayetvar_vakifbank.csv",
-    "IsBank":     "data/raw/sikayetvar_isbank.csv",
-    "KuveytTurk": "data/raw/sikayetvar_kuveyt_turk.csv",
+    "VakifBank":  "data/raw/vakifbank_2026.csv",
+    "IsBank":     "data/raw/is-bankasi_2026.csv",
+    "KuveytTurk": "data/raw/kuveyt-turk_2026.csv",
 }
 YEDEK = {
     "VakifBank":  "sikayetvar_vakifbank.csv",

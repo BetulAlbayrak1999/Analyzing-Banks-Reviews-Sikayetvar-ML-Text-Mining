@@ -2,7 +2,7 @@
 =============================================================
 ADIM 5 (UZMAN): TF-IDF + MAKİNE ÖĞRENMESİ MODELLERİ
 =============================================================
-Bankacılık Sektörü Müşteri Şikayet Analizi — 2025
+Bankacılık Sektörü Müşteri Şikayet Analizi — 2026
 Kuveyt Türk | VakıfBank | İşBankası
 
 TEMEL TASARIM KARARLARI:

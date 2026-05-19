@@ -1,13 +1,13 @@
 # config.py — Proje Yapılandırması
-# Bankacılık Sektörü Müşteri Şikayet Analizi — 2025
+# Bankacılık Sektörü Müşteri Şikayet Analizi — 2026
 
 # ----------------------------------------------------------
 # VERİ DOSYALARI
 # ----------------------------------------------------------
 VERI_DOSYALARI = {
-    "VakifBank":   "data/raw/sikayetvar_vakifbank.csv",
-    "IsBank":      "data/raw/sikayetvar_isbank.csv",
-    "KuveytTurk":  "data/raw/sikayetvar_kuveyt_turk.csv",
+    "VakifBank":   "data/raw/vakifbank_2026.csv",
+    "IsBank":      "data/raw/is-bankasi_2026.csv",
+    "KuveytTurk":  "data/raw/kuveyt-turk_2026.csv",
 }
 
 # Grafik başlıklarında kullanılacak Türkçe adlar
