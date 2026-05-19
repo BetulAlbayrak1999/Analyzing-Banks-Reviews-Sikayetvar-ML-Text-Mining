@@ -1,7 +1,7 @@
 """
-kuveytturk_2025_scraper.py
+kuveytturk_2026_scraper.py
 ==========================
-Kuveyt Türk 2025 - tum 15 kolon.
+Kuveyt Türk 2026 - tum 15 kolon.
 
 Duzeltmeler:
   1) 403 sorunu: paralel thread KALDIRILDI, sirayla + delay ile cekiliyor
@@ -10,14 +10,14 @@ Duzeltmeler:
   3) Bos satirlar: title veya url yoksa kart atiliyor (silinmis/gizli sikayet)
 
 Strateji:
-  - 3 endpoint x 200 sayfa = tum 2025 kapsami
+  - 3 endpoint x 200 sayfa = tum 2026 kapsami
   - Liste + detay ayni geciste, sirayla
   - Her 10 sayfada otomatik kayit (kesinti korumasi)
   - Kaldigi yerden devam eder (seen_ids)
 
 Kurulum:  pip install requests beautifulsoup4 pandas openpyxl
-Calistir: python kuveytturk_2025_scraper.py
-Cikti:    kuveytturk_2025.xlsx  +  kuveytturk_2025.csv
+Calistir: python kuveytturk_2026_scraper.py
+Cikti:    kuveytturk_2026.xlsx  +  kuveytturk_2026.csv
 Sure:     ~2-3 saat (sirayla cekme, guvenli)
 """
 
@@ -55,8 +55,8 @@ import pandas as pd
 OPERATOR   = "Kuveyt Türk"          # ← Banka adi (Excel'de gorunur)
 SLUG       = "kuveyt-turk"          # ← URL slug (sikayetvar.com/SLUG)
 BASE_URL   = "https://www.sikayetvar.com"
-DATE_START = date(2025,  1,  1)   # ← Baslangic tarihi
-DATE_END   = date(2025, 12, 31)   # ← Bitis tarihi
+DATE_START = date(2026,  1,  1)   # ← Baslangic tarihi
+DATE_END   = date(2026, 4, 30)   # ← Bitis tarihi
 
 # Cikti dosya adlari — SLUG degistirince bunlar da degisir
 OUTPUT_EXCEL = f"{SLUG}_{DATE_START.year}.xlsx"
@@ -640,11 +640,11 @@ def scrape() -> None:
         for ym, grp in df.groupby("ym"):
             log.info(f"  {ym}: {len(grp):>5} sikayet")
 
-        missing = {f"2025-{m:02d}" for m in range(1, 13)} - set(df["ym"].unique())
+        missing = {f"2026-{m:02d}" for m in range(1, 13)} - set(df["ym"].unique())
         if missing:
             log.warning(f"  EKSIK AYLAR: {sorted(missing)}")
         else:
-            log.info("  Tum 2025 aylari kapsandi!")
+            log.info("  Tum 2026 aylari kapsandi!")
 
         log.info("\n--- Kolon Doluluk Orani ---")
         for col in COLUMNS:
@@ -664,7 +664,7 @@ def scrape() -> None:
 
 if __name__ == "__main__":
     log.info("=" * 60)
-    log.info("Kuveyt Türk 2025 Scraper — 15 Kolon | 5 Endpoint")
+    log.info("Kuveyt Türk 2026 Scraper — 15 Kolon | 5 Endpoint")
     log.info(f"Tarih  : {DATE_START}  →  {DATE_END}")
     log.info(f"Cikti  : {OUTPUT_EXCEL}  +  {OUTPUT_CSV}")
     log.info(f"Kayit  : Her {SAVE_EVERY_N} sayfada bir (Excel + CSV)")
