@@ -2,7 +2,7 @@
 =============================================================
 ADIM 2: KEŞİFSEL VERİ ANALİZİ (EDA)
 =============================================================
-Bankacılık Sektörü Müşteri Şikayet Analizi — 2025
+Bankacılık Sektörü Müşteri Şikayet Analizi — 2026
 Kuveyt Türk | VakıfBank | İşBankası
 
 TEMEL KARARLAR:
@@ -11,7 +11,7 @@ TEMEL KARARLAR:
   - is_resolved: 2 sınıf → Çözüldü / Çözülmedi
   - Mann-Whitney U testi (2 grup, parametrik olmayan)
   - Keywords: # prefix temizleme + eş anlamlı kategori birleştirme
-  - Tam yıl veri (Ocak–Aralık 2025), aylık trend yorumu önemli
+  - Tam yıl veri (Ocak–Aralık 2026), aylık trend yorumu önemli
 
 ÜRETILEN FIGURLER:
   01 — Şikayet Sayısı
@@ -62,9 +62,9 @@ RENKLER = {
     "KuveytTurk": "#1B5E20",
 }
 DOSYALAR = {
-    "VakifBank":  "data/raw/sikayetvar_vakifbank.csv",
-    "IsBank":     "data/raw/sikayetvar_isbank.csv",
-    "KuveytTurk": "data/raw/sikayetvar_kuveyt_turk.csv",
+    "VakifBank":  "data/raw/vakifbank_2026.csv",
+    "IsBank":     "data/raw/is-bankasi_2026.csv",
+    "KuveytTurk": "data/raw/kuveyt-turk_2026.csv",
 }
 # is_resolved: 2 sınıf (yeni veride Bilinmiyor yok)
 COZUM_RENK = {
@@ -510,10 +510,10 @@ aylik_pivot = aylik.pivot(index="ay_str", columns="banka_key",
                           values="sayi").sort_index()
 
 AY_TR = {
-    "2025-01": "Oca", "2025-02": "Şub", "2025-03": "Mar",
-    "2025-04": "Nis", "2025-05": "May", "2025-06": "Haz",
-    "2025-07": "Tem", "2025-08": "Ağu", "2025-09": "Eyl",
-    "2025-10": "Eki", "2025-11": "Kas", "2025-12": "Ara",
+    "2026-01": "Oca", "2026-02": "Şub", "2026-03": "Mar",
+    "2026-04": "Nis", "2026-05": "May", "2026-06": "Haz",
+    "2026-07": "Tem", "2026-08": "Ağu", "2026-09": "Eyl",
+    "2026-10": "Eki", "2026-11": "Kas", "2026-12": "Ara",
 }
 x_etiketler = [AY_TR.get(a, a) for a in aylik_pivot.index]
 
@@ -534,9 +534,9 @@ for key in BANKA_SIRASI:
 
 ax.set_xticks(x_pos)
 ax.set_xticklabels(x_etiketler, fontsize=10)
-ax.set_title("Aylık Şikayet Trendi (Ocak–Aralık 2025)",
+ax.set_title("Aylık Şikayet Trendi (Ocak–Nisan 2026)",
              fontsize=13, fontweight="bold")
-ax.set_xlabel("Ay (2025)")
+ax.set_xlabel("Ay (2026)")
 ax.set_ylabel("Şikayet Sayısı")
 ax.legend(fontsize=10)
 ax.spines[["top", "right"]].set_visible(False)

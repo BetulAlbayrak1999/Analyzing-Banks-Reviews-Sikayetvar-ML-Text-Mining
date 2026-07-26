@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+type: software
+title: "Analyzing Banks Reviews — Şikayetvar ML Text Mining"
+authors:
+  - family-names: Albayrak
+    given-names: Betül
+repository-code: "https://github.com/BetulAlbayrak1999/Analyzing-Banks-Reviews-Sikayetvar-ML-Text-Mining"
+abstract: >-
+  Comparative text mining and machine learning analysis of online banking
+  customer complaints from Şikayetvar for VakıfBank, İş Bankası, and Kuveyt Türk.
+  The pipeline covers Turkish NLP preprocessing, LDA topic modeling,
+  TF-IDF classification, and hypothesis-driven comparative evaluation.
+keywords:
+  - text mining
+  - NLP
+  - machine learning
+  - LDA
+  - TF-IDF
+  - banking
+  - customer complaints
+  - Şikayetvar
+  - Turkish
+license: MIT
+version: "2026.1"
+date-released: "2026-07-26"

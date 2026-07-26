@@ -3,7 +3,7 @@
 ADIM 1 (İYİLEŞTİRİLMİŞ): ORTAM KURULUMU VE PROJE YAPISI
 =============================================================
 Bankacılık Sektörü Şikayet Analizi
-Kuveyt Türk | VakıfBank | İşBankası — Şikayetvar 2025
+Kuveyt Türk | VakıfBank | İşBankası — Şikayetvar 2026
 
 İYİLEŞTİRMELER:
   - Kapsamlı Türkçe stop words (bankacılık + platform + gramer)
@@ -36,7 +36,7 @@ PROJE_KLASORLERI = [
 
 print("=" * 65)
 print("TEZ PROJESİ KURULUMU BAŞLIYOR")
-print("Bankacılık Sektörü Müşteri Şikayet Analizi — 2025")
+print("Bankacılık Sektörü Müşteri Şikayet Analizi — 2026")
 print("Kuveyt Türk | VakıfBank | İşBankası")
 print("=" * 65)
 
@@ -51,9 +51,9 @@ for klasor in PROJE_KLASORLERI:
 print("\n[CSV dosyaları kopyalanıyor ve normalize ediliyor...]")
 
 KAYNAK_HEDEF = [
-    ("sikayetvar_vakifbank.csv",    "data/raw/sikayetvar_vakifbank.csv"),
-    ("sikayetvar_i_ş_bank.csv",     "data/raw/sikayetvar_isbank.csv"),    # ← normalize
-    ("sikayetvar_kuveyt_turk.csv",  "data/raw/sikayetvar_kuveyt_turk.csv"),
+    ("sikayetvar_vakifbank.csv",    "data/raw/vakifbank_2026.csv"),
+    ("sikayetvar_i_ş_bank.csv",     "data/raw/is-bankasi_2026.csv"),    # ← normalize
+    ("sikayetvar_kuveyt_turk.csv",  "data/raw/kuveyt-turk_2026.csv"),
 ]
 
 for kaynak, hedef in KAYNAK_HEDEF:
@@ -334,7 +334,7 @@ except ImportError:
 print("\n[config.py oluşturuluyor...]")
 
 config_icerik = '''# config.py — Proje Yapılandırması
-# Bankacılık Sektörü Müşteri Şikayet Analizi — 2025
+# Bankacılık Sektörü Müşteri Şikayet Analizi — 2026
 
 # ----------------------------------------------------------
 # VERİ DOSYALARI

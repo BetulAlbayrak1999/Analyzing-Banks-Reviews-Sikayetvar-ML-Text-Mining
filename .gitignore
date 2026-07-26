@@ -1,6 +1,117 @@
-# Python virtual environments
+# =========================
+# Virtual environments
+# =========================
 venv/
 env/
 .env/
+.venv/
 ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Secrets & local env
+# =========================
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+secrets.json
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+share/python-wheels/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+*.cover
+.cache/
+
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# =========================
+# Trained models (regenerate via adim4 / adim5)
+# =========================
 models/
+*.joblib
+*.pkl
+*.pickle
+
+# =========================
+# IDE / editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Office lock / temp files
+# =========================
+~$*
+*.tmp
+*.temp
+
+# =========================
+# Logs & local scratch
+# =========================
+*.log
+logs/
+tmp/
+temp/
+.scrapy/
+
+# =========================
+# Optional: uncomment if data/results should stay local only
+# =========================
+# data/raw/
+# data/processed/
+# results/figures/
+# sikayetvar-web-scraper/*.csv
+# sikayetvar-web-scraper/*.xlsx

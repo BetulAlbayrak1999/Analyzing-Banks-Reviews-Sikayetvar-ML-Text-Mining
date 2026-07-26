@@ -1,20 +1,19 @@
 ﻿Banka,Konu,Etiket,Kelimeler,Optimal_k,Coherence,Perplexity
-VakıfBank,Konu_1,"ATM, Alışveriş ve Kampanya","kart_aidat, kredi, ücret, iade, kart, tutar, aidat, alına, tamam_iade, ekstre, kesile, yansıtıldık",9,0.5898,-6.7796
-VakıfBank,Konu_2,Kredi ve Borç Yönetimi,"kredi, tutar, sigorta, ihtiyaç_kredi, iade, ücret, hayat_sigorta, fer_kaz, uygulama, poliçe, kullan, bağlı",9,0.5898,-6.7796
-VakıfBank,Konu_3,Dijital Bankacılık ve Güvenlik,"işlem, tutar, iade, mağduriyet, hesap, derhal, yapıldık, süre, güvenlik, lik, arayarak, izinsiz",9,0.5898,-6.7796
-VakıfBank,Konu_4,Kart Aidat ve Ücret Şikayetleri,"limit, sky_limit, kredi, uygulama, kullanamıyor, sorunsuz, hesap, deneme, kullanmak, işlem_gerçekleştiremiyor, alıyor, hgs",9,0.5898,-6.7796
-VakıfBank,Konu_5,Sigorta ve İhtiyaç Kredisi,"para, atm, kayıt, şlem, tutar, nin, civar, hesap, atm_para, süre, işlem, aradı",9,0.5898,-6.7796
-VakıfBank,Konu_6,Konu 6,"maaş, bloke, hesap, icra, ödeme, personel, ara, işlem, gerekçe, şube, giriş, para",9,0.5898,-6.7796
-VakıfBank,Konu_7,Konu 7,"tutar, kesinti, tahsil_edile, ücret, iade, eksiksiz_iade, faiz, kabul_etmiyor, tahsilat, sigorta_poliçe, hesap, tahsil",9,0.5898,-6.7796
-VakıfBank,Konu_8,Konu 8,"borç, ödeme, hesap, kredi, maaş, faiz, yapılandırma, taksit, kart, gecikme, vade, tutar",9,0.5898,-6.7796
-VakıfBank,Konu_9,Konu 9,"kart, kredi, kampanya, puan, alışveriş, tutar, ekstre, harcama, yaptık, harca, özellik, ödeme",9,0.5898,-6.7796
-İşBankası,Konu_1,Kredi Kartı Limiti ve Kampanya,"tutar, maaş, numara, faiz, hesap, arama, ücret, karar, çek, ödeme, rahatsız, sigorta",7,0.4632,-6.5918
-İşBankası,Konu_2,Mobil Uygulama ve İşlem Sorunları,"kart, kredi, aidat, ücret, tutar, iade, borç, limit, ekstre, ödeme, kullanıyor, yıl",7,0.4632,-6.5918
-İşBankası,Konu_3,Aidat ve Yıllık Ücret İtirazı,"maaş, hesap, borç, şube, ödeme, uygulama, işlem, icra, personel, nede, yaşıyor, sür",7,0.4632,-6.5918
-İşBankası,Konu_4,Maaş Promosyonu ve Kart Teslimatı,"para, hesap, tutar, ödeme, atm, işlem, kredi, iade, kart, şlem, borç, görünüyor",7,0.4632,-6.5918
-İşBankası,Konu_5,"Borç, Haciz ve Hesap Blokesi","uygulama, giriş, bloke, işlem, hesap, şcep_uygulama, kredi, güvenlik, teknik, çek, şifre, kanal",7,0.4632,-6.5918
-İşBankası,Konu_6,Konu 6,"kart, alışveriş, kampanya, puan, kredi, maxipuan, harcama, tutar, kampanya_koşul, lik, taksit, ödeme",7,0.4632,-6.5918
-İşBankası,Konu_7,Konu 7,"kart, kredi, aidat, ücret, iade, tutar, üyelik_ücret, üyelik, iptal, hake_heyet, alına, işlem",7,0.4632,-6.5918
-Kuveyt Türk,Konu_1,Kredi Kartı ve Kampanya Şikayetleri,"kampanya, kart, alışveriş, iade, tutar, kampanya_şart, davet, ödül, kampanya_kapsam, harcama, uygulama, harca",3,0.4141,-6.7663
-Kuveyt Türk,Konu_2,Davet Kampanyası ve ATM/Ödül,"kart, uygulama, hesap, numara, şube, atm, giriş, temsilci, işlem, para, telefon, aradı",3,0.4141,-6.7663
-Kuveyt Türk,Konu_3,Para Transferi ve Şube İşlemleri,"para, hesap, tutar, ödeme, kredi_kart, kredi, kart, ücret, işlem, limit, şube, iade",3,0.4141,-6.7663
+VakıfBank,Konu_1,"ATM, Alışveriş ve Kampanya","kampanya, kart, kredi, alışveriş, harcama, troy, eğit, tutar, ara, ödeme, market, çek",6,0.4003,-5.5728
+VakıfBank,Konu_2,Kredi ve Borç Yönetimi,"atm, para, tutar, ücret, işlem, civar, kart, şlem, buluna, ekra, kredi, pos_cihaz",6,0.4003,-5.5728
+VakıfBank,Konu_3,Dijital Bankacılık ve Güvenlik,"bloke, hesap, maaş, emekli_maaş, tutar, ödeme, ödemes, kapsam, giriş, çalışa, şart, gerekiyor",6,0.4003,-5.5728
+VakıfBank,Konu_4,Kart Aidat ve Ücret Şikayetleri,"kredi, sigorta, tutar, ihtiyaç_kredi, fer_kaz, iade, ücret, uygulama, kullandık, işlem, gümüş, sat",6,0.4003,-5.5728
+VakıfBank,Konu_5,Sigorta ve İhtiyaç Kredisi,"borç, maaş, ödeme, kredi, hesap, tutar, icra, yapılandırma, faiz, kart, buluna, limit",6,0.4003,-5.5728
+VakıfBank,Konu_6,Konu 6,"kredi, kart, kart_aidat, tutar, ücret, ekstre, iade, aidat, yansıtıldık, harca, yıl, kullanıyor",6,0.4003,-5.5728
+İşBankası,Konu_1,Kredi Kartı Limiti ve Kampanya,"hesap, giriş, şube, uygulama, sür, şcep_uygulama, limit, numara, sır, hat, nede, temsilci",4,0.4089,-6.0007
+İşBankası,Konu_2,Mobil Uygulama ve İşlem Sorunları,"tutar, para, kredi, maaş, işlem, kart, hesap, atm, alışveriş, kampanya, civar, şlem",4,0.4089,-6.0007
+İşBankası,Konu_3,Aidat ve Yıllık Ücret İtirazı,"kart, kredi, tutar, ücret, aidat, ekstre, iade, yansıtıl, yük, yıl, sür, kullanıyor",4,0.4089,-6.0007
+İşBankası,Konu_4,Maaş Promosyonu ve Kart Teslimatı,"kredi, borç, kart, ödeme, hesap, yapılandırma, taksit, gecikme, ihtiyaç, sür, icra, borcu",4,0.4089,-6.0007
+Kuveyt Türk,Konu_1,Kredi Kartı ve Kampanya Şikayetleri,"kart, kredi, limit, çağrı_merkez, kuryenet, temsilci, adres, ten, borç, ulaşmadı, mil, numara",8,0.353,-6.1018
+Kuveyt Türk,Konu_2,Davet Kampanyası ve ATM/Ödül,"hesap, uygulama, kredi, ödeme, kart, tutar, davet, taksit, gerçekleştir, kampanya, görüşme, borç",8,0.353,-6.1018
+Kuveyt Türk,Konu_3,Para Transferi ve Şube İşlemleri,"uygulama, giriş, telefon, şifre, çalıştık, kart, alıyor, numara, numaras, cihaz, ödeme, nede",8,0.353,-6.1018
+Kuveyt Türk,Konu_4,Müşteri Hizmetleri ve Görüşme,"para, hesap, atm, şube, tutar, civar, işlem, şlem, buluna, yatır, sür, kredi",8,0.353,-6.1018
+Kuveyt Türk,Konu_5,Mobil Uygulama ve Güvenlik,"gümüş, fiyat, gram, satış, yaptık, işlem, araç, hesap, sigorta, sat, ücret, çeyrek",8,0.353,-6.1018
+Kuveyt Türk,Konu_6,Kart Başvurusu ve Şifre Sorunları,"kart, hesap, numara, şube, yurt_dış, tek, kredi, arama, fon, tutar, aradı, özellik",8,0.353,-6.1018
+Kuveyt Türk,Konu_7,Hesap ve Para Yatırma İşlemleri,"kart, kredi, ödeme, tutar, numara, aidat, fatur, uygulama, para, emekli_maaş, miles_smiles, görev",8,0.353,-6.1018
+Kuveyt Türk,Konu_8,Konu 8,"kampanya, kart, tutar, iade, alışveriş, harcama, kampanya_şart, harca, işlem, kredi, kampanya_kapsam, yaptık",8,0.353,-6.1018
